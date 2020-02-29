@@ -1080,3 +1080,20 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+
+
+app/node_modules/**/*
+app/.expo/*
+app/npm-debug.*
+app/*.jks
+app/*.p8
+app/*.p12
+app/*.key
+app/*.mobileprovision
+app/*.orig.*
+app/web-build/
+app/web-report/
+
+# macOS
+app/.DS_Store
