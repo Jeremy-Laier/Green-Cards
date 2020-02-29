@@ -1,8 +1,7 @@
 import React from 'react';
-import { View, StyleSheet, Dimensions, Text, Alert, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Dimensions, Text, TouchableOpacity } from 'react-native';
 import * as Permissions from 'expo-permissions';
 import { Camera } from 'expo-camera';
-import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import { Ionicons } from '@expo/vector-icons';
@@ -15,21 +14,34 @@ const TabIcon = (props) => (
   />
 )
 
-export default class Scan extends React.Component {
+const Stack = createStackNavigator();
+export default function CameraScan() {
+  return (
+    <Stack.Navigator initialRouteName="Scan" screenOptions={{ headerShown: false }} >
+      <Stack.Screen name="Scan" component={Scan} />
+      <Stack.Screen name="ImageView" component={ImageView} />
+    </ Stack.Navigator>
+  );
+}
 
+
+export class Scan extends React.Component {
   camera = null;
 
   state = {
     hasCameraPermission: null,
   };
 
-  // static navigationOptions = {
-  //   title: "Scan"
-  // }
+  static navigationOptions = {
+    title: "Scan",
+    headerStyle: {
+      height: 50,
+      backgroundColor: '#f4511e',
+    }
+  }
 
   constructor(props) {
-    super(props);
-    // MyStack();
+    super(props)
   }
 
   async componentDidMount() {
@@ -49,12 +61,8 @@ export default class Scan extends React.Component {
   }
 
   showImage() {
-    this.props.navigation.navigate("ImageView");
+    this.props.navigation.push("ImageView");
   }
-
-  static navigationOptions = {
-    tabBarIcon: TabIcon
-  };
 
   render() {
     const { hasCameraPermission } = this.state;
@@ -89,7 +97,7 @@ export default class Scan extends React.Component {
             this.snap();
           }}
         >
-          {/* <Icon name={"chevron-right"} size={30} color="#01a699" /> */}
+
         </TouchableOpacity>
       </View>
     );
@@ -98,10 +106,12 @@ export default class Scan extends React.Component {
 
 export class ImageView extends React.Component {
 
-
-
   static navigationOptions = {
-    title: "ImageView"
+    title: "Scan",
+    headerStyle: {
+      height: 50,
+      backgroundColor: '#f4511e',
+    }
   }
 
   constructor(props) {
@@ -111,31 +121,28 @@ export class ImageView extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Details Screen</Text>
-        <Button
-          title="Go to Details... again"
-          onPress={() => navigation.push('Details')}
-        />
+        {/* <Image
+          style={{ width: 150, height: 150 }}
+          source={require('./assets/greenlogo.png')}
+        /> */}
       </View >
     );
   }
 }
-
-const Stack = createStackNavigator();
-function MyStack() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-          name="Scan"
-          component={Scan}
-          options={{ title: 'Works' }}
-        />
-        <Stack.Screen name="ImageView" component={ImageView} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
+// function MyStack() {
+//   return (
+//     <NavigationContainer>
+//       <Stack.Navigator>
+//         <Stack.Screen
+//           name="Scan"
+//           component={Scan}
+//           options={{ title: 'Works' }}
+//         />
+//         <Stack.Screen name="ImageView" component={ImageView} />
+//       </Stack.Navigator>
+//     </NavigationContainer>
+//   );
+// }
 
 const { width: winWidth, height: winHeight } = Dimensions.get('window');
 
