@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/backend/NHLStats.Api/bin/Debug/netcoreapp2.0/NHLStats.Api.dll",
+            "program": "${workspaceFolder}/backend/GREEN_CARD.Api/bin/Debug/netcoreapp2.0/GREEN_CARD.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/backend/NHLStats.Api",
+            "cwd": "${workspaceFolder}/backend/GREEN_CARD.Api",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {

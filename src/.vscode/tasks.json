@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/backend/NHLStats.Api/NHLStats.Api.csproj"
+                "${workspaceFolder}/backend/GREEN_CARD.Api/GREEN_CARD.Api.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
