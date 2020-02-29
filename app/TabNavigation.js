@@ -1,68 +1,98 @@
 import * as React from 'react';
+import { Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator, createStackNavigator } from '@react-navigation/bottom-tabs';
-import { MaterialCommunityIcons } from 'react-native-vector-icons';
-import Overview from './screens/Overview.js'
-import History from './screens/History.js'
-import Camera from './screens/Camera.js'
-import Profile from './screens/Profile.js'
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Profile from './screens/Profile'
+import Overview from './screens/Overview'
+import History from './screens/History'
+import Camera from './screens/Camera'
 
-export default function TabNavigation() {
-    return (
-        <MyTabs />
-    );
-  }
+function IconWithBadge({ name, badgeCount, color, size }) {
+  return (
+    <View style={{ width: 24, height: 24, margin: 5 }}>
+      <Ionicons name={name} size={size} color={color} />
+      {badgeCount > 0 && (
+        <View
+          style={{
+            // On React Native < 0.57 overflow outside of parent will not work on Android, see https://git.io/fhLJ8
+            position: 'absolute',
+            right: -6,
+            top: -3,
+            backgroundColor: 'red',
+            borderRadius: 6,
+            width: 12,
+            height: 12,
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <Text style={{ color: 'white', fontSize: 10, fontWeight: 'bold' }}>
+            {badgeCount}
+          </Text>
+        </View>
+      )}
+    </View>
+  );
+}
+
+function HomeIconWithBadge(props) {
+  // You should pass down the badgeCount in some other ways like React Context API, Redux, MobX or event emitters.
+  return <IconWithBadge {...props} badgeCount={3} />;
+}
 
 const Tab = createBottomTabNavigator();
 
-function MyTabs() {
+export default function App() {
   return (
-    <Tab.Navigator
-      initialRouteName="Overview"
-      tabBarOptions={{
-        activeTintColor: '#e91e63',
-      }}
-    >
-      <Tab.Screen
-        name="Overview"
-        component={Overview}
-        options={{
-          tabBarLabel: 'Overview',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home" color={color} size={size} />
-          ),
+      <Tab.Navigator 
+        screenOptions={({ route }) => ({
+          tabBarIcon: ({ focused, color, size }) => {
+            if (route.name === 'Profile') {
+              return (
+                <Ionicons
+                  name='ios-contact'
+                  size={size}
+                  color={color}
+                />
+              );
+            } else if (route.name === 'History') {
+              return (
+                <Ionicons
+                  name='ios-list'
+                  size={size}
+                  color={color}
+                />
+              );
+            } else if (route.name === 'Camera') {
+                return (
+                  <Ionicons
+                    name='ios-camera'
+                    size={size}
+                    color={color}
+                  />
+                );
+            } else if (route.name === 'Overview') {
+                return (
+                  <Ionicons
+                    name='ios-analytics'
+                    size={size}
+                    color={color}
+                  />
+                );
+            }
+          },
+        })}
+        tabBarOptions={{
+          activeTintColor: 'tomato',
+          inactiveTintColor: 'gray',
         }}
-      />
-      <Tab.Screen
-        name="Camera"
-        component={Camera}
-        options={{
-          tabBarLabel: 'Camera',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="camera" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="History"
-        component={History}
-        options={{
-          tabBarLabel: 'History',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="history" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Profile"
-        component={Profile}
-        options={{
-          tabBarLabel: 'Profile',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
-          ),
-        }}
-      />
-    </Tab.Navigator>
+      >
+        <Tab.Screen name="Overview" component={Overview} />
+        <Tab.Screen name="History" component={History} />
+        <Tab.Screen name="Camera" component={Camera} />
+        <Tab.Screen name="Profile" component={Profile} />
+
+      </Tab.Navigator>
   );
 }

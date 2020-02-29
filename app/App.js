@@ -31,22 +31,28 @@ function SignInScreen() {
   const { signIn } = React.useContext(AuthContext);
 
   return (
-    <View>
-      <TextInput
-        placeholder="Username"
-        value={username}
-        onChangeText={setUsername}
-      />
-      <TextInput
-        placeholder="Password"
-        value={password}
-        onChangeText={setPassword}
-        secureTextEntry
-      />
-      <Button title="Sign in" onPress={() => signIn({ username, password })} />
+    <View style = {{height: 500}}>
+      <View style ={{flex: 1}}>
+        <TextInput
+          placeholder="Username"
+          value={username}
+          onChangeText={setUsername}
+          style={{fontSize: 20, paddingTop: 50, textAlign: 'center'}}
+        />
+      </View>
+      <View style = {{flex: 2}}>
+        <TextInput 
+          placeholder="Password"
+          value={password}
+          onChangeText={setPassword}
+          secureTextEntry
+          style={{fontSize: 20, paddingBottom: 50, textAlign: 'center'}}
+        />
+        <Button title="Sign in" onPress={() => signIn({ username, password })} />
+      </View>
     </View>
-  );
-}
+  ); 
+} 
 
 const Stack = createStackNavigator();
 
@@ -146,7 +152,7 @@ export default function App({ navigation }) {
             />
           ) : (
             // User is signed in
-            <Stack.Screen name="Overview" component={TabNavigation} />
+            <Stack.Screen name="Green Reward" component={TabNavigation} />
           )}
         </Stack.Navigator>
       </NavigationContainer>
