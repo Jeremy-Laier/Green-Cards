@@ -1,36 +1,28 @@
+using System;
 using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using sms_uic.Models.Schools;
-using sms_uic.Models;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using GREEN_CARD.Core.Data;
+using GREEN_CARD.Core.Models;
 
-namespace sms_uic.Data
+namespace GREEN_CARD.Data.Repositories
 {
-    public class StudentRepository{
-        private DbSet<Student> students;
-        private SMSDbContext dbContext;
-        public StudentRepository(){
-            string connectionString = "";
-            dbContext = SMSDbContextFactory.Create(connectionString);
-
-            DbSet<Student> students = dbContext.Student;
-        }
-
-        public List<Student> getGradeLevel(int level, School school){
-            return students.Where( s =>  s.GradeLevel == level && s.SchoolId == school.SchoolId).ToList();
-        } 
+    public class UserRepository{
+        private DbSet<User> users;
+        private GREEN_CARDContext dbContext;
+        private readonly GREEN_CARDContext _db;
         
-        public List<Student> getAllStudents(School school){
-            return students.Where( s =>  s.SchoolId == school.SchoolId)
-            .OrderBy(student => student.LastName).OrderBy(student => student.GradeLevel).ToList();
+        public UserRepository(GREEN_CARDContext db)
+        {
+            _db = db;
+        }
+        public User getUser(int id){
+            return users.Where( s =>  s.UserId == id).Single();
         }
 
-        public Student getStudent(int id){
-            return students.Where( s =>  s.StudentId == id).Single();
-        }
-
-        public void addStudent(Student student){
-            students.Add(student);
+        public void addUser(User user){
+            users.Add(user);
         }
     }
 }
