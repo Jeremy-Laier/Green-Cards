@@ -1,6 +1,4 @@
-﻿
-
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -66,7 +64,7 @@ namespace GREEN_CARD.Data
                 "MyDesignTimeDbContextFactory.Create(string): Connection string: {0}",
                 connectionString);
 
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseNpgsql(connectionString);
 
             var options = optionsBuilder.Options;
             return CreateNewInstance(options);

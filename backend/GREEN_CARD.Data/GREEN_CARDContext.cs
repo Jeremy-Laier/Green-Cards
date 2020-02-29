@@ -18,6 +18,10 @@ namespace GREEN_CARD.Data
         public DbSet<Season> Seasons { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<League> Leagues { get; set; }
+        public DbSet<User> Users{get;set;}
+        public DbSet<Transaction> Transactions{get;set;}
+        public DbSet<Item> Items{get;set;}
+        public DbSet<Receipt> Receipts{get;set;}
         public DbSet<SkaterStatistic> SkaterStatistics { get; set; }
         
     }
