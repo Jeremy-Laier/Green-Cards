@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
+import { View, StyleSheet, Text, Button } from 'react-native';
 
 import { Ionicons } from '@expo/vector-icons';
 
@@ -19,12 +19,14 @@ export default class Profile extends React.Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Profile</Text>
+      <View>
+        
       </View>
     );
   }
 }
+
+
 
 const styles = StyleSheet.create({
   container: {

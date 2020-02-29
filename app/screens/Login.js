@@ -1,21 +1,15 @@
 import React, { Component } from "react";
 import { View, Text, ScrollView, StyleSheet } from "react-native";
-import colors from "../styles/color";
-export default class Login extends Component {
-  render() {
-    return (
-      <View style={styles.wrapper}>
-        <ScrollView>
-          <Text>Login</Text>
-        </ScrollView>
-      </View>
-    );
-  }
+import styles from "../Styles.js";
+
+function HomeScreen({ navigation }) {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+      <Button
+        title="Go to Details"
+        onPress={() => navigation.navigate('Details')}
+      />
+    </View>
+  );
 }
-const styles = StyleSheet.create({
-  wrapper: {
-    display: "flex",
-    flex: 1,
-    backgroundColor: colors.green01
-  }
-});
