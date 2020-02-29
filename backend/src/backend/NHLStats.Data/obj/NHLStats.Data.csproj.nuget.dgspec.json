@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Data/NHLStats.Data.csproj": {}
+  },
+  "projects": {
+    "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Core/NHLStats.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Core/NHLStats.Core.csproj",
+        "projectName": "NHLStats.Core",
+        "projectPath": "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Core/NHLStats.Core.csproj",
+        "packagesPath": "/home/jeremy/.nuget/packages/",
+        "outputPath": "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeremy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Data/NHLStats.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Data/NHLStats.Data.csproj",
+        "projectName": "NHLStats.Data",
+        "projectPath": "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Data/NHLStats.Data.csproj",
+        "packagesPath": "/home/jeremy/.nuget/packages/",
+        "outputPath": "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeremy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Core/NHLStats.Core.csproj": {
+                "projectPath": "/home/jeremy/code/hackillinois/backend/ASPNetCoreGraphQL/src/backend/NHLStats.Core/NHLStats.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
