@@ -12,7 +12,7 @@ namespace GREEN_CARD.Data.Repositories
         private DbSet<User> users;
         private GREEN_CARDContext dbContext;
         private readonly GREEN_CARDContext _db;
-        
+
         public UserRepository(GREEN_CARDContext db)
         {
             _db = db;
