@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from 'react-native-vector-icons';
 import Overview from './screens/Overview.js'
 import History from './screens/History'
-import Camera from './screens/Camera.js'
+import Scan from './screens/Scan.js'
 import Profile from './screens/Profile'
 
 export default function App() {
@@ -37,7 +37,7 @@ function MyTabs() {
       />
       <Tab.Screen
         name="Camera"
-        component={Camera}
+        component={Scan}
         options={{
           tabBarLabel: 'Camera',
           tabBarIcon: ({ color, size }) => (
