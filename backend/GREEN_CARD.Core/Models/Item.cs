@@ -14,7 +14,5 @@ namespace GREEN_CARD.Core.Models
         public double CO2Impact {get;set;}
         public double Price {get;set;}
         public int QRCode {get;set;}
-
     }
-
 }
