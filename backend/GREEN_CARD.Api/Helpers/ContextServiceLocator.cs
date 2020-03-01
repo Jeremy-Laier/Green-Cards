@@ -11,6 +11,14 @@ namespace GREEN_CARD.Api.Helpers
         public IPlayerRepository PlayerRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<IPlayerRepository>();
         public ISkaterStatisticRepository SkaterStatisticRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<ISkaterStatisticRepository>();
 
+        public IUserRepository UserRepository =>  _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<IUserRepository>();
+
+        public ITransctionRepository TransctionRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<ITransctionRepository>();
+
+        public IItemRepository ItemRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<IItemRepository>();
+
+        public IReceiptRepository ReceiptRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<IReceiptRepository>();
+
         private readonly IHttpContextAccessor _httpContextAccessor;
 
         public ContextServiceLocator(IHttpContextAccessor httpContextAccessor)
