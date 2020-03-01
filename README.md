@@ -4,7 +4,7 @@
  ## What?
  
  
-<a> This is how we reimagine banking. A bank for people who care about their bottom line as well as their envirmoent and society. Green Card is a new way to save the environment! </a>
+<a> This is how we reimagine banking. A bank for people who care about their bottom line as well as their enviroment and society. Green Card is a new way to save the environment! </a>
 
 <a> For every environmentally friendly purchase you make, you get cash back! Use it just like your normal credit card or scan your reciepts using our deep learning techonolgy for even more, specialized cash back rewards! </a>
 
@@ -14,7 +14,7 @@
 
 ## Backend
 
-Our backend is compose mainly of graphQL for anything that is Json based, and a standar Restfull API enpoints for non-Json data.
+Our backend is compose mainly of GraphQL for anything that is Json based, and a standar Restfull API enpoints for non-Json data.
 The features that the backend supports are the avility tho query past transactions, user data, process receipts, and look at their envirmental footprint that their credit data implies. Our main features allow the user to submit a receipt to their rewards card. On the back end we process the image and decide which puchoces count for rewards.
 
 ## GraphQL API and PostgrSQL
