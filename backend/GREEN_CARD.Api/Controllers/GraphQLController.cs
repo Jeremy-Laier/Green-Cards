@@ -15,8 +15,7 @@ namespace GREEN_CARD.Api.Controllers
         private readonly IDocumentExecuter _documentExecuter;
         private readonly ISchema _schema;
 
-        public GraphQLController(ISchema schema, IDocumentExecuter documentExecuter)
-        {
+        public GraphQLController(ISchema schema, IDocumentExecuter documentExecuter) {
             _schema = schema;
             _documentExecuter = documentExecuter;
         }
