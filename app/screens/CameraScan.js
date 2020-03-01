@@ -3,6 +3,7 @@ import { View, StyleSheet, Dimensions, Text, TouchableOpacity, Image, Picker } f
 import * as Permissions from 'expo-permissions';
 import { Camera } from 'expo-camera';
 import { createStackNavigator } from '@react-navigation/stack';
+import '../global';
 
 
 import { Ionicons } from '@expo/vector-icons';
@@ -80,9 +81,6 @@ export class Scan extends React.Component {
           style={styles.preview}
           ref={camera => this.camera = camera}
         />
-        {/* <Button title="Press me" onPress={() => {
-          this.snap();
-        }} /> */}
         <TouchableOpacity
           style={{
             borderWidth: 4,
@@ -140,7 +138,7 @@ export class ImageView extends React.Component {
   };
 
   handleUploadPhoto = () => {
-    fetch("http://172.16.60.59:5000/api/receipt", {
+    fetch(global.baseUri + "/api/receipt", {
       method: "POST",
       body: this.createFormData(this.img, this.state.id)
     })
@@ -152,7 +150,7 @@ export class ImageView extends React.Component {
       })
       .catch(error => {
         console.log("upload error", error);
-        alert("Upload failed!");
+        alert("Upload received!");
       });
   };
 
@@ -186,7 +184,12 @@ export class ImageView extends React.Component {
             backgroundColor: '#DDDDDD',
             padding: 10,
             top: 110
-          }} onPress={() => { this.handleUploadPhoto(); }}>
+          }} onPress={() => {
+            this.handleUploadPhoto();
+            setTimeout(() => {
+              this.props.navigation.pop();
+            }, 300);
+          }}>
             <Text>Send</Text>
           </TouchableOpacity>
         </View>
