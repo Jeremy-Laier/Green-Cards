@@ -127,22 +127,22 @@ export class ImageView extends React.Component {
 
   }
 
-  createFormData = (photo) => {
+  createFormData = (photo, transactionId) => {
     const data = new FormData();
     console.log(photo.uri);
     data.append("files", {
       type: 'image/jpeg',
-      name: 'temp',
+      name: 'receit' + transactionId + '.jpg',
       uri: photo.uri
     });
-
+    console.log('receit' + transactionId + '.jpg');
     return data;
   };
 
   handleUploadPhoto = () => {
     fetch("http://172.16.60.59:5000/api/receipt", {
       method: "POST",
-      body: this.createFormData(this.img)
+      body: this.createFormData(this.img, this.state.id)
     })
       .then(response => response.json())
       .then(response => {
