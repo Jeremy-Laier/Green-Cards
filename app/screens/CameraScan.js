@@ -127,6 +127,35 @@ export class ImageView extends React.Component {
 
   }
 
+  createFormData = (photo) => {
+    const data = new FormData();
+    console.log(photo.uri);
+    data.append("files", {
+      type: 'image/jpeg',
+      name: 'temp',
+      uri: photo.uri
+    });
+
+    return data;
+  };
+
+  handleUploadPhoto = () => {
+    fetch("http://172.16.43.81:5000/api/receipt", {
+      method: "POST",
+      body: this.createFormData(this.img)
+    })
+      .then(response => response.json())
+      .then(response => {
+        console.log("upload success", response);
+        alert("Upload success!");
+        this.setState({ photo: null });
+      })
+      .catch(error => {
+        console.log("upload error", error);
+        alert("Upload failed!");
+      });
+  };
+
   render() {
     this.img = this.props.route.params.img;
     return (
@@ -156,7 +185,7 @@ export class ImageView extends React.Component {
             backgroundColor: '#DDDDDD',
             padding: 10,
             top: 110
-          }}>
+          }} onPress={() => { this.handleUploadPhoto(); }}>
             <Text>Send</Text>
           </TouchableOpacity>
         </View>
