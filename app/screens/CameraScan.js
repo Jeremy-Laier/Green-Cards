@@ -133,7 +133,7 @@ export class ImageView extends React.Component {
       name: 'receit' + transactionId + '.jpg',
       uri: photo.uri
     });
-    console.log('receit' + transactionId + '.jpg');
+    data.append("transactionId", transactionId);
     return data;
   };
 
