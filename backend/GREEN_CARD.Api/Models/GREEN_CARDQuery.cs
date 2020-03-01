@@ -27,24 +27,24 @@ namespace GREEN_CARD.Api.Models
                 "user",
                 arguments: new QueryArguments(new QueryArgument<IntGraphType> { Name = "userId" }),
                 resolve: context => contextServiceLocator.UserRepository.Get(context.GetArgument<int>("userId")));
-            
 
             Field<ListGraphType<TransactionType>>(
                 "transactions",
                 arguments: new QueryArguments(
                     new QueryArgument<NonNullGraphType<TransactionInputType>> { Name = "filter" }),
-                resolve: context =>{
-                    var input =  context.GetArgument<TransactionInput>("filter");
-                    return contextServiceLocator.TransctionRepository.Get(input.userId, input.startDate, input.endDate, input.pageSize, input.pageNumber);
+                resolve: context =>
+                {
+                    var input = context.GetArgument<TransactionInput>("filter");
+                    return contextServiceLocator.TransactionRepository.Get(input.userId, input.startDate, input.endDate, input.pageSize, input.pageNumber);
                 });
 
             Field<ItemType>(
                 "item",
                 arguments: new QueryArguments(new QueryArgument<IntGraphType> { Name = "itemId" }),
-                resolve: context => contextServiceLocator.ItemRepository.Get(context.GetArgument<int>("itemId")));   
+                resolve: context => contextServiceLocator.ItemRepository.Get(context.GetArgument<int>("itemId")));
         }
     }
 }
 
 
- 
+

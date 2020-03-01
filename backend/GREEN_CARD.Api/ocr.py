@@ -55,7 +55,7 @@ for ele in parse:
         ele = re.sub(r'\D+$','', ele)
         ele = re.sub(r'\. ', '.', ele)
 
-        print (splitter(ele))
+        print (splitter(ele), end='?')
         # print (ele)
         # ret.append(splitter(ele))
 

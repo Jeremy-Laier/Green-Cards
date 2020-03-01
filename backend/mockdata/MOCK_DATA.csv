@@ -1,0 +1,1001 @@
+TransactionId,UserId,Date,Location,Amount,HaveReceipt
+3199,3,10/24/2014,El Cuy,8672.57,false
+9139,10,9/19/2019,Kameda-honchō,4626.09,true
+80,7,1/29/2018,Darvi,287.79,false
+4184,10,8/17/2010,Kuncen,6254.38,true
+654,4,7/19/2014,Gikongoro,8074.83,true
+5948,4,4/18/2013,Rancageneng Satu,9159.96,false
+1109,4,1/23/2020,Sovetsk,264.56,false
+9622,7,10/8/2018,Palhoça,7757.15,false
+9649,10,5/2/2016,Göteborg,8943.35,true
+3463,5,2/19/2019,Tena,3290.86,true
+4666,8,12/18/2012,Hino,1339.43,true
+739,2,9/19/2012,Daliang,2185.06,true
+6324,5,11/10/2015,Chikushino-shi,3707.22,true
+986,9,11/28/2017,Lộc Bình,4869.59,true
+2896,2,12/17/2011,Besuki Dua,1574.68,true
+5338,10,12/20/2010,Uwajima,5071.19,true
+6710,5,8/28/2018,Songping,2480.04,true
+1647,3,2/11/2017,Panggungwinong,4765.33,false
+4769,6,6/12/2012,Na Yong,3074.18,false
+9811,8,12/4/2015,San Juan Bautista,4261.21,false
+4318,4,6/16/2010,Loureiro,8233.37,false
+6206,2,10/13/2019,Huangdu,8706.85,true
+4973,9,8/3/2019,Ailibugai,5886.24,false
+9489,6,6/24/2011,Tsimlyansk,7749.7,true
+4366,8,6/29/2010,Pilcuyo,7394.65,true
+230,4,12/13/2019,Jilili,2731.99,true
+4158,2,4/3/2014,Mets Parni,4404.62,true
+3068,4,12/17/2018,Delong,9978.55,true
+2407,3,5/22/2015,Ambon,172.52,true
+8200,4,2/11/2013,Ljukovo,6755.15,true
+1096,9,8/22/2019,Dongxi,2852.48,true
+2628,9,9/26/2018,Dama,8944.73,false
+5197,2,2/16/2013,Amboise,1047.19,true
+3153,2,9/18/2019,Quetigny,9155.43,false
+4304,9,5/25/2018,Pudasjärvi,3903.76,false
+9253,4,4/23/2017,Zaïo,8493.61,false
+2275,9,5/10/2013,Koceljeva,7696.17,true
+4509,1,7/10/2015,Shënmëri,7441.2,true
+1999,5,6/9/2011,Pepe,7240.51,true
+788,1,9/11/2016,Stubno,3310.32,true
+9915,10,7/27/2018,Wuppertal,3057.25,true
+3223,5,1/23/2017,Xianglan,8836.06,false
+7898,8,1/4/2012,Brive-la-Gaillarde,5509.22,false
+3797,6,11/3/2010,Propriá,3900.47,true
+5100,1,2/3/2012,Al Ḩīlah,9765.53,true
+5998,3,3/20/2013,Zürich,8661.68,false
+3041,4,10/15/2012,Néa Smýrni,92.48,true
+6219,5,5/20/2011,Leskovac,9405.61,false
+789,9,8/17/2013,Manas,8415.04,false
+1436,2,3/2/2012,Västra Frölunda,3958.99,false
+5199,9,12/19/2016,Sangiang,4044.16,false
+9386,9,12/24/2019,Akkol’,2692.83,false
+1255,4,3/16/2015,Oumiao,4964.15,false
+6406,4,4/26/2015,Stupino,8939.26,false
+7410,5,8/19/2017,Dundrum,7544.59,true
+9013,9,1/14/2017,Hedong,3740.52,false
+9868,4,10/24/2016,Auxerre,1484.72,false
+2039,2,3/25/2011,Chicoana,7391.33,false
+2901,4,9/1/2011,Launceston,4717.58,true
+7792,10,10/19/2014,Kardamás,2354.46,false
+7152,5,1/19/2016,Alcaria,5572.85,true
+9860,9,11/18/2017,Vallehermoso,4502.8,false
+2700,1,9/10/2018,Baranowo,3132.63,true
+1964,7,11/21/2016,Wichita,8850.0,true
+6091,6,2/9/2015,Zhengyu,8617.89,true
+7833,10,2/11/2011,Kalininaul,4282.32,false
+7833,7,10/2/2012,Kano,252.98,false
+6975,6,5/19/2017,Penteado,2985.64,true
+667,6,12/10/2012,Houjiachuan,5512.21,true
+3652,9,7/9/2014,Villa María,5943.23,false
+9891,6,2/9/2018,Bayonne,6911.7,true
+9521,5,2/19/2012,Homagama,9480.05,true
+1651,3,4/25/2017,Tanlad,1885.01,true
+7792,7,4/24/2010,Jelisavac,5278.98,true
+86,8,6/6/2013,Pathum Rat,3689.43,true
+3200,4,2/21/2015,Casais,6416.58,true
+9993,8,3/18/2011,San Justo,3645.0,false
+916,3,2/16/2018,Tadou,3416.76,false
+2613,1,6/29/2013,Italó,3342.6,false
+7551,3,7/21/2016,Xikou,1622.55,false
+6175,8,4/1/2011,San Buenaventura,2802.65,false
+5258,10,4/21/2013,Tilburg,2336.59,true
+509,3,12/10/2018,Ohrid,4493.89,true
+6468,8,11/27/2015,Beaung Tengah,2582.51,true
+1097,2,5/1/2018,Aurillac,3975.39,false
+968,4,1/9/2020,Phak Hai,2211.9,false
+237,4,2/21/2013,Duszniki-Zdrój,5700.45,false
+8369,4,12/1/2018,Weligama,1990.66,true
+6007,1,3/25/2010,Ciro Redondo,4752.17,true
+137,10,1/30/2011,Lukulu,4835.97,false
+8646,2,5/3/2017,Wola Filipowska,2195.83,false
+7064,2,12/1/2014,Al Hoceïma,5548.61,true
+8673,6,7/1/2016,Bernardo de Irigoyen,9904.08,false
+3912,3,1/13/2011,Chengjiao,4134.14,true
+469,8,5/8/2017,Urrao,6518.44,false
+4591,3,8/10/2017,Thị Trấn Mường Tè,665.51,true
+635,4,4/22/2013,Nagpandayan,2266.05,false
+7991,2,1/13/2012,Pulilan,6945.17,true
+7951,7,1/24/2013,Tomilino,5674.82,true
+2810,7,3/7/2016,Jiufang,7757.11,false
+8619,8,12/2/2012,Pondohan,1610.63,true
+8436,4,11/25/2019,Burlatskoye,2527.55,true
+4251,8,5/22/2018,Yangshufang,3959.85,true
+5164,7,6/3/2010,Kadumelati,2024.67,false
+8760,8,9/4/2011,Austin,511.39,true
+2539,3,1/15/2020,Sūrak,7029.75,true
+8255,4,2/18/2019,Zhangjiaji,8040.79,false
+2299,2,9/8/2015,Fermont,1622.2,true
+7015,10,11/10/2018,Dayr Abū Ḑa‘īf,9112.21,true
+5597,3,11/22/2011,Długosiodło,5701.33,true
+3478,8,2/2/2016,Maguilling,379.27,false
+6956,7,10/27/2013,Negara,5719.76,false
+7956,9,6/19/2017,Simpangpasir,5388.09,false
+2118,4,6/16/2017,San Francisco,7345.73,false
+7110,4,8/8/2019,Puutuga,974.04,true
+5596,4,5/18/2010,Sievi,8904.27,false
+7666,6,7/9/2015,Faqqū‘ah,3289.99,true
+3967,10,4/5/2013,Sukahening,3024.13,true
+6675,1,8/27/2015,Dzorastan,7746.49,true
+4781,8,12/16/2013,Mariara,4788.05,false
+5403,4,10/20/2013,Sakaraha,4028.25,false
+2926,3,2/6/2012,Fanyang,2581.46,false
+2566,6,11/2/2013,Ciudad Arce,2833.58,true
+3401,4,9/2/2012,San Felipe,4693.89,true
+8551,2,2/20/2020,Shakhta,3800.22,true
+4620,3,3/7/2017,Bunog,5199.88,true
+1069,4,1/30/2014,Koíla,1008.37,false
+4613,5,10/16/2019,Nangkaruka,8474.86,false
+6241,7,1/11/2019,Xincun,7090.8,true
+5860,7,2/5/2014,Pampierstad,154.81,false
+4603,8,1/16/2012,Gapan,8390.58,true
+2122,8,12/4/2011,Skidal’,7592.92,false
+8010,6,6/15/2017,Kertamukti,3801.66,true
+1373,5,4/11/2012,Alto do Estanqueiro,8542.3,false
+6840,5,8/4/2013,Lixiqiao,1509.66,true
+5536,6,10/7/2016,Ueda,3216.74,false
+3548,6,9/24/2014,Bibis,5434.25,false
+3139,4,8/22/2016,Paris 08,1712.1,false
+1290,3,9/22/2015,Bonao,963.96,false
+1581,3,12/27/2012,Zhuoshui,2678.57,true
+8741,5,8/23/2015,Al Qadmūs,7710.99,true
+7775,1,9/20/2012,Conchal,8.32,true
+8999,6,4/3/2019,Ryazhsk,2790.44,true
+4624,8,8/17/2013,Furukawa,1919.76,false
+7745,4,6/10/2015,Villa Constitución,3273.55,false
+3098,4,12/15/2014,Bolyarovo,3931.96,false
+5962,9,4/20/2010,Logan Lake,5447.93,false
+7783,5,4/11/2015,Agenebode,3027.97,false
+661,3,11/27/2016,Itami,2784.66,true
+1175,7,2/9/2011,Rukaj,5145.45,true
+4655,1,11/2/2015,Maungatapere,3483.32,true
+3481,5,11/1/2011,Taouloukoult,3698.46,false
+260,6,2/4/2015,Yantian,8811.2,false
+4776,9,7/20/2019,Makueni,8046.04,false
+8574,1,6/21/2013,Sarpsborg,5233.72,true
+7780,9,11/13/2015,Sidareja,7498.23,true
+4411,6,11/5/2016,Makato,9302.51,false
+305,4,9/6/2018,Cibangun Tengah,2140.13,true
+6675,4,6/19/2019,Horad Rechytsa,3982.08,true
+7151,3,12/16/2019,Zhoutian,5080.31,false
+485,8,9/5/2018,Castanheiro do Sul,1469.06,false
+1730,1,12/27/2012,Zaječí,1505.15,false
+605,8,4/7/2011,Miaoshou,4878.29,true
+2168,7,12/7/2013,El Fasher,8500.21,false
+3664,6,10/11/2010,Zaïo,2298.49,true
+7614,1,6/19/2015,Tân Kỳ,8258.47,false
+697,6,3/3/2015,Jincheng,3161.72,true
+2001,3,7/8/2019,Kagoro,5531.95,true
+7651,8,9/21/2016,Dokri,2670.23,true
+7848,4,12/22/2019,Nizhniy Ufaley,2059.72,false
+7036,8,12/3/2011,Lambayong,5933.37,false
+8402,9,8/10/2014,Luocun,6854.34,false
+4527,3,6/4/2019,Angered,7120.24,false
+5859,2,4/19/2011,Hayes,9418.44,true
+8441,10,10/14/2016,Pincher Creek,2295.62,true
+605,7,2/8/2013,Oakville,8157.79,false
+4233,8,9/7/2010,Moshiyi,2625.66,true
+2967,3,2/7/2012,Torez,3341.83,true
+1617,4,7/14/2011,Leuwipicung,471.67,true
+1899,3,10/24/2018,Yuhang,7800.66,true
+2680,8,8/9/2016,Xiaocheng,5088.44,true
+6804,2,11/30/2010,Luwan,8242.33,false
+7682,7,10/18/2016,Ob’,9543.63,false
+8052,3,10/9/2010,Qinglian,3855.9,true
+4286,10,7/7/2018,Takeo,2741.21,false
+2934,10,9/28/2012,Jagdaqi,1129.57,true
+7085,10,5/19/2013,Daqin Tal,2116.09,true
+8796,1,8/17/2013,Králův Dvůr,9522.5,true
+5154,8,6/25/2014,Moorreesburg,7131.07,true
+7409,3,1/16/2012,Cimaung Kidul,4409.41,true
+5543,3,6/26/2011,Kimberley,9314.37,false
+6025,4,3/30/2014,Lillooet,6139.07,false
+7486,8,1/13/2018,Gandara,1026.08,false
+1914,6,1/1/2012,El Mirador,5581.66,false
+4427,10,2/6/2012,Longhua,3618.17,false
+6932,7,3/30/2010,Tyrnyauz,5484.38,false
+6512,9,7/4/2016,Jiangkou,3514.76,true
+6814,10,2/26/2017,El Zulia,2963.87,false
+1313,1,5/2/2015,Saryözek,4019.23,true
+8558,3,12/30/2010,Vlissingen,9844.84,true
+4564,10,1/8/2018,Thanatpin,7765.03,false
+1357,10,11/1/2012,Amsterdam Binnenstad en Oostelijk Havengebied,5186.0,false
+5590,1,6/4/2017,Wugong,4419.48,false
+9407,10,8/2/2012,Faqīrwāli,3391.24,true
+2249,7,10/18/2017,Karjalohja,8323.98,false
+6845,4,11/22/2010,Karakol,1934.04,true
+8161,4,3/2/2017,Wichit,9284.82,false
+9434,2,2/15/2018,Inriville,3248.09,false
+94,9,9/30/2013,Sukorambi,367.3,false
+3136,1,4/11/2015,Lengji,4843.03,false
+1370,6,10/13/2011,Matangshan,8201.35,true
+6142,8,1/8/2020,Sơn Hà,8649.66,false
+361,4,4/2/2014,Arcueil,4729.76,true
+9210,8,5/21/2014,Vodyane,4989.18,false
+4497,5,6/18/2011,Battle Creek,4250.25,true
+6742,8,6/4/2010,Al Ghāriyah,779.29,true
+4745,7,9/21/2010,Caculé,9540.1,false
+3759,3,1/7/2014,Bulembu,2121.43,false
+710,5,10/9/2012,Solnice,7186.91,true
+1009,1,7/20/2019,Mintian,9466.44,true
+8706,6,2/1/2018,Khōshī,9371.42,false
+318,3,11/3/2019,Masaguisi,4433.56,false
+9653,2,2/27/2019,Gansa,9143.26,false
+6096,9,8/9/2013,Taiping,492.87,true
+8070,6,3/4/2013,‘Izbat al Burj,7965.42,true
+4075,1,3/6/2013,Casal do Relvas,8033.6,true
+4475,5,4/2/2018,Tomilino,913.87,true
+5384,9,12/7/2011,Vlachovo Březí,7925.59,true
+3119,7,10/23/2013,Roboré,9590.7,false
+3683,4,10/21/2010,Paucarbamba,9641.01,false
+5041,10,2/19/2015,Kampala,4731.51,true
+1960,8,8/17/2012,Haoyi,2670.65,false
+2332,1,3/26/2017,Shilong,6343.23,true
+7123,5,8/3/2017,Tsul-Ulaan,8744.49,true
+230,9,4/13/2019,Guohua,3478.04,true
+3239,3,1/17/2013,Urachiche,3422.05,true
+943,2,4/4/2017,Vřesina,7269.22,false
+9140,5,3/5/2017,Ndano,632.52,true
+6071,8,7/7/2016,Butterworth,5695.31,false
+5549,5,1/21/2019,Belyye Stolby,3963.15,true
+4478,4,3/9/2012,Natakoli,9393.57,false
+7358,6,5/4/2016,Shijiazhuang,1260.16,true
+810,1,9/12/2018,El Limon,5476.45,true
+9671,1,9/16/2013,Manzil Bū Zalafah,628.96,true
+7475,4,12/29/2011,Banyue,8180.69,false
+5348,2,10/11/2018,Teluksantong,1184.77,false
+9001,2,8/21/2011,Jacaraú,581.18,true
+617,2,8/22/2018,Qishui,4710.35,true
+1589,8,1/1/2017,Radomin,7575.03,false
+9289,10,3/1/2015,Hehe,6691.89,true
+1086,4,9/5/2015,Tibati,9708.84,true
+2925,6,3/15/2019,Bandar-e ‘Asalūyeh,2627.97,false
+2702,7,7/9/2015,Villa Gesell,2507.93,true
+768,3,8/2/2016,Kota Bharu,4655.08,true
+7678,10,5/29/2019,General Lavalle,1214.69,true
+7688,5,8/15/2015,Pozo Hondo,1779.43,false
+3627,5,7/30/2010,Linhu,4713.19,true
+2189,5,3/3/2011,Pouzauges,4928.38,true
+3944,7,7/29/2016,Bokoro,5328.34,true
+7030,10,11/9/2019,Santo Domingo Oeste,9851.19,true
+9306,9,1/18/2015,Pa Kham,2809.26,false
+9148,6,1/30/2020,Lauro de Freitas,9259.23,true
+2950,7,2/2/2013,Spanish Town,1463.21,true
+3594,9,7/9/2017,Norak,807.37,true
+3172,3,11/20/2012,Mochishche,188.12,false
+5481,9,12/30/2019,Gevgelija,4258.15,true
+5895,8,8/19/2018,Krasnogvardeyets,4944.53,true
+480,9,12/4/2017,Stockholm,6408.22,false
+4262,5,4/25/2014,Agnibilékrou,7856.59,false
+3909,9,10/23/2018,San Juan de los Morros,9723.26,false
+9846,9,12/2/2016,Kobyzhcha,335.46,false
+4112,6,4/10/2018,Vrsi,2863.3,true
+5554,1,5/17/2012,Hewa,2818.42,true
+1010,1,2/12/2016,Almeirim,1172.32,true
+9971,8,8/7/2016,Candelaria,6229.47,false
+7896,7,6/15/2019,Chrzanów,3622.3,true
+979,8,7/31/2011,Maksatikha,2787.84,false
+2813,10,11/1/2016,Levski,4000.81,false
+2539,1,2/9/2018,Even Yehuda,1131.54,false
+9521,10,6/27/2018,Cirangkong,1193.36,false
+619,10,2/18/2018,Kutasari,6414.04,true
+5561,9,12/24/2017,Bugcaon,2178.32,true
+7213,10,9/23/2012,Vilhena,7206.77,true
+9079,5,2/8/2016,Säffle,5895.81,false
+3598,10,11/16/2010,Gewanē,6147.12,false
+8769,6,2/2/2016,Vroutek,2632.27,false
+383,9,8/1/2013,Bali,3399.18,false
+2725,7,3/7/2019,Port Louis,8963.94,false
+9404,4,6/11/2018,Wan’an,238.17,false
+9522,3,7/28/2014,Tours,1284.92,false
+4832,4,8/5/2017,Illkirch-Graffenstaden,4096.4,true
+8390,4,7/17/2015,Tabor,1388.49,true
+5382,1,9/5/2011,Pryazovs’ke,7578.2,true
+2347,3,11/14/2014,Chamni,8898.33,false
+4466,10,6/11/2017,Vaiusu,1519.17,true
+9551,2,10/19/2012,Catolé do Rocha,8896.87,false
+4270,8,10/24/2013,Ban Phue,6393.38,false
+8490,4,5/23/2014,Wonoharjo,3800.08,false
+7814,3,11/3/2015,Staraya Stanitsa,7060.45,false
+8288,1,11/6/2014,Pattani,6603.22,false
+8718,7,6/13/2011,Shahrisabz Shahri,5330.86,true
+5276,9,1/3/2019,Benito Juarez,2173.73,false
+2447,7,8/24/2010,Begejci,4089.73,true
+1059,8,4/26/2010,Baru,9570.66,false
+8451,8,1/14/2013,Guangfu,6655.21,false
+2056,1,9/26/2018,Cikiruh Wetan,980.1,false
+9783,2,10/5/2016,Hamilton,828.04,true
+9676,8,4/12/2019,Sibayo,2612.16,true
+9997,3,4/12/2017,Liuhe,7133.9,false
+2670,2,8/4/2012,Małkinia Górna,1816.65,true
+5142,6,2/2/2018,Grevená,5164.35,false
+8147,3,2/1/2015,Gävle,7103.28,true
+8001,4,7/10/2017,Manassas,1101.85,true
+8087,3,3/23/2010,Itápolis,4805.89,false
+2714,8,11/4/2016,São Sebastião do Caí,2383.52,true
+7801,8,11/4/2017,Cabalawan,2084.84,false
+1004,4,2/12/2013,Zebrzydowice,1211.37,true
+9130,6,1/2/2013,Si’erbao,9103.16,false
+3596,8,3/26/2017,Kampong Thom,4933.3,true
+444,1,6/17/2012,Kochenëvo,2459.59,true
+2770,6,8/25/2012,Villa de Soto,8845.82,false
+1274,8,5/31/2018,Gesing,8411.99,false
+6439,8,2/27/2013,Slobodka,1452.23,false
+7517,1,5/26/2017,Maasin,2723.89,true
+3708,1,9/3/2015,Heshang,5139.67,false
+4467,5,8/15/2014,Oneop,6583.93,false
+8582,1,8/3/2017,Hondo Valle,1038.22,false
+7819,10,2/18/2014,Kalianyar Selatan,5337.08,false
+6875,7,4/22/2019,Datan,8714.09,false
+8059,2,3/30/2015,Kiambu,966.18,false
+9240,10,4/8/2016,Priozërsk,5580.8,true
+9514,7,6/13/2011,Ārt Khwājah,2373.93,false
+5369,6,9/6/2011,Passos,3000.68,false
+5883,9,2/7/2017,Okpoma,3734.17,true
+98,2,4/4/2012,Cabaritan East,186.09,false
+7262,9,6/20/2018,Várzea,2949.21,false
+1589,3,7/4/2014,Saint-Denis,8687.52,false
+5996,1,12/22/2015,Leshan,1614.1,true
+2549,9,11/16/2011,Kuma,7193.65,false
+3835,1,7/28/2013,Quintas,8249.11,false
+226,1,4/16/2012,Bulan,2759.31,true
+1405,4,7/1/2011,Årsta,3187.63,true
+4387,9,2/10/2012,Vincennes,3418.24,false
+7659,9,9/11/2016,Campo Quijano,3789.88,false
+6631,3,10/1/2019,Aţ Ţawīlah,9153.11,false
+4039,5,1/1/2017,Xiangzhu,6893.09,true
+6322,9,8/22/2015,Skhira,4571.96,false
+1123,1,1/14/2016,Kabukarudi,9542.9,false
+8226,8,9/8/2016,Ban Lam Luk Ka,4196.5,false
+4273,8,5/30/2018,Akaki,5956.09,true
+7165,8,11/6/2018,Qiaoxia,9603.94,false
+1729,3,12/15/2013,La Clotilde,2577.79,true
+4642,10,10/16/2018,Krajan Ngerdani,394.06,false
+9157,5,12/25/2014,Taman,1252.23,true
+5164,10,9/4/2017,Eman,8608.86,false
+4450,10,9/13/2019,Pirassununga,686.36,false
+9517,2,5/30/2018,Oeiras,3597.24,true
+7536,2,9/29/2012,Öldziyt,9350.94,true
+7422,7,6/2/2013,Arsen’yev,3599.58,false
+1241,10,1/16/2015,Lokoja,3733.09,false
+9305,2,12/21/2019,Nikopol’,7886.78,true
+4849,8,10/17/2015,Tengqiao,5235.97,false
+6700,4,9/21/2014,Hehe,4789.99,true
+2936,6,7/10/2019,Cabo,1546.02,false
+7967,9,6/20/2012,Totok,5738.37,true
+6856,9,11/16/2016,Lukou,8334.35,true
+9759,5,7/26/2010,Bagong Sikat,7494.51,false
+229,5,1/20/2013,Österbybruk,1313.26,false
+6692,6,11/19/2016,Junqueiro,8653.17,true
+2236,5,4/15/2019,Cuenca,3063.37,false
+318,5,9/10/2014,Nogueira,7555.15,false
+1321,2,8/17/2010,Rudnya,9361.51,false
+1508,7,3/22/2014,Nangalimang,7994.66,true
+6030,6,11/26/2015,Vília,9703.54,false
+7439,7,12/24/2013,Pucara,1755.56,false
+8552,4,4/5/2012,Domartang,3589.47,true
+4883,3,6/9/2019,Penglai,8934.74,false
+4272,2,12/13/2013,Marcabamba,2103.9,false
+5659,5,9/3/2013,Pridonskoy,1431.04,false
+4922,1,6/8/2016,Sandefjord,9229.38,false
+1392,6,6/13/2018,Arroyo Seco,3271.5,true
+8895,9,10/23/2019,La Mohammedia,2991.66,true
+2034,8,12/12/2013,Mniszków,1212.78,false
+5845,4,2/6/2017,Hüremt,5281.65,true
+2784,4,9/6/2017,Mahendranagar,6829.47,false
+3912,3,2/20/2011,Vinica,9888.04,true
+289,6,5/22/2015,Palestina,6256.56,false
+9611,1,3/16/2010,Ekenäs,122.34,true
+2320,7,11/8/2019,Jinhu,4609.25,true
+3096,10,1/23/2015,Kremidivka,8684.59,false
+6324,2,8/24/2019,Qinhong,3460.49,false
+2173,6,8/6/2019,Bolekhiv,5913.41,false
+6400,5,9/29/2011,Cañaveral,595.07,false
+8094,9,9/12/2018,Thị Trấn Nguyên Bình,5519.36,false
+4184,6,3/7/2019,Kermānshāh,9673.27,false
+4726,8,2/24/2019,Leśnica,2227.25,false
+5629,10,11/12/2016,Hamburg,5066.26,true
+9281,5,2/20/2013,Mella,5198.49,true
+1992,6,4/28/2013,Regimin,1840.89,true
+3317,8,4/28/2018,Criação Velha,3918.64,true
+5187,5,3/6/2018,Sorang,1750.7,true
+9835,6,4/13/2016,Licheng,7240.06,false
+1184,1,6/28/2010,Metz,2927.75,true
+6196,10,11/29/2017,Manaus,1883.82,false
+1543,6,6/9/2012,Bolesławiec,3292.44,false
+7584,8,1/15/2012,Yanggu’ao,3399.69,false
+8707,10,8/27/2013,Songkan,1860.07,true
+6203,8,10/29/2014,Ma’an,9662.54,false
+9718,4,11/12/2018,Picassinos,6225.46,true
+426,3,1/11/2017,Xubu,9811.96,false
+3121,2,11/3/2015,Youxi,3334.28,true
+1762,6,5/1/2013,Shumyachi,8426.96,false
+255,7,9/4/2011,Santa Cruz,6439.69,true
+4364,2,5/31/2017,Hadabei,5627.75,true
+5896,2,5/13/2019,Silca,4933.4,false
+4697,6,7/29/2018,Malausma Kidul,7949.02,true
+4100,9,6/18/2015,Rząśnik,7510.17,true
+925,5,10/4/2013,Sali,8340.21,false
+1632,2,4/10/2016,Staryy Saltiv,6693.1,true
+7479,5,10/13/2016,Tatebayashi,9146.05,true
+7221,1,10/18/2017,Puzi,5455.59,false
+719,7,5/20/2018,Korkino,2155.97,false
+8942,8,12/22/2019,Phetchaburi,8409.98,true
+5719,2,4/16/2016,Tingsiqiao,418.01,true
+7857,7,11/7/2010,Huangge,5349.5,false
+1191,7,2/17/2012,Batgrām,7566.19,true
+2426,7,7/23/2013,‘Awaj,967.62,false
+4016,9,1/5/2012,Huaqiao,5608.61,false
+9667,4,2/27/2014,Berck,4923.19,true
+6539,6,2/13/2020,Xiluo,3982.18,true
+6768,10,8/20/2014,Quốc Oai,339.51,true
+7885,8,2/17/2016,Tuateta,9545.77,true
+3846,4,12/28/2011,Jialu,4661.95,false
+8180,9,9/25/2013,Rumyantsevo,7255.98,false
+3336,1,3/24/2017,Donja Mahala,669.4,true
+9298,5,11/29/2015,Fort Smith,5947.92,true
+2270,3,10/21/2012,Jingtou,3175.42,false
+1413,6,5/15/2010,Jin’an,8492.76,true
+4325,3,5/30/2014,Capacho Nuevo,2897.39,false
+6731,1,7/9/2018,Jiulongshan,5614.13,true
+5477,2,7/26/2016,Tilmi,4707.78,true
+7178,1,1/21/2017,Bol’shoy Karay,8468.17,false
+7935,10,6/26/2015,Tumba,2202.54,true
+3284,4,8/19/2012,Králův Dvůr,539.65,true
+8237,2,5/4/2017,Hilversum,6325.7,true
+94,3,12/6/2016,Shaowu,201.44,false
+6524,8,8/20/2012,Punata,4810.45,true
+5747,4,6/20/2013,Morada Nova,1068.17,true
+1528,9,11/22/2010,Ōno-hara,4813.94,false
+3782,5,3/10/2017,Sérvia,5187.41,false
+6592,8,6/5/2015,Ash Shaykh Zuwayd,8555.39,true
+6924,4,11/16/2012,Ocoruro,8942.69,false
+8870,9,8/10/2013,Baculin,4633.61,false
+9833,4,8/20/2018,Nerópolis,8749.52,false
+8773,9,9/27/2011,Salon-de-Provence,7512.78,true
+80,1,3/12/2010,Ginebra,9189.49,true
+6207,2,10/11/2018,Kanália,2250.9,false
+340,1,10/24/2013,Créteil,341.48,false
+6018,8,8/25/2018,Berekum,3951.89,true
+8692,7,8/22/2013,Kuantan,3128.93,false
+2117,9,8/1/2013,Keroak,9605.73,true
+6308,9,10/9/2011,Chervone,4065.57,false
+8353,9,7/16/2016,Saint-Augustin-de-Desmaures,3636.42,false
+6806,9,5/12/2019,Sosnovyy Bor,3892.12,true
+9252,3,5/31/2013,Kliteh,3966.99,false
+9126,7,5/20/2017,Yanbei,2753.28,true
+1658,5,6/12/2017,Krajan,9886.15,true
+6363,1,7/1/2018,Turmi,8980.52,true
+8171,7,9/8/2013,Metapán,6689.51,true
+9336,5,9/17/2012,Nzeto,7568.59,true
+7439,9,6/23/2014,Pulosari,1537.82,true
+6479,7,4/29/2011,Araguaiana,2121.02,true
+4054,5,7/30/2018,Cergy-Pontoise,4561.4,false
+701,3,7/4/2012,Montigny-lès-Metz,7392.22,false
+1448,9,9/19/2018,Ílion,167.91,true
+7757,3,5/25/2010,Milton,8408.3,true
+4517,7,6/25/2012,Saint-Leu-la-Forêt,8994.86,true
+6321,7,4/9/2013,Hefu,2696.89,false
+50,4,6/5/2012,Bemposta,7346.25,true
+1814,8,5/1/2014,Baoji,5338.05,false
+208,2,11/22/2015,Hukeng,7869.06,false
+9235,8,10/22/2016,Kabare,7648.82,true
+4809,10,3/22/2019,Beslan,2897.82,false
+5383,7,4/22/2019,Hualin,5532.94,true
+4972,10,4/5/2010,Bodø,6895.98,false
+8981,2,9/11/2019,Adolfo Lopez Mateos,5545.56,false
+8490,6,6/13/2019,Sumuranyar,1691.34,false
+4187,8,10/27/2014,Konotop,733.29,true
+8613,9,6/3/2012,Yuzhou,8150.4,false
+8398,8,1/10/2014,Bungoma,5919.82,false
+2257,2,9/28/2013,Nazran’,6443.11,false
+1778,7,2/19/2013,Xizhong,4858.42,true
+9587,9,8/20/2016,Carpenter,676.85,true
+7544,10,4/18/2019,Rawaapu,8474.04,false
+5389,6,2/12/2019,Yanling,8166.91,true
+3213,6,5/26/2012,Yemva,6931.65,true
+1736,7,2/4/2018,Krasnoye,5128.88,true
+923,3,5/4/2011,Locminé,5398.66,true
+973,1,1/8/2014,Kilkís,277.29,false
+3591,4,8/1/2019,Jiuhua,1281.94,false
+7151,7,3/26/2019,Norberg,2208.53,false
+7876,1,8/21/2010,Qingguang,29.84,false
+3019,8,8/15/2012,Żernica,66.89,false
+4116,8,2/18/2012,Ventanas,652.77,false
+6114,10,10/1/2011,Paris 08,8233.37,true
+8045,2,10/17/2013,Cimuncang,7583.15,true
+742,1,2/14/2014,Glasnevin,3439.9,false
+4545,9,7/24/2011,Khotynets,9115.62,false
+4830,4,7/15/2016,Teseney,5011.49,false
+9634,5,8/17/2012,Dake,3625.78,false
+2586,1,4/7/2016,Dingdian,1379.24,true
+2544,5,4/25/2010,Kogon,3462.49,true
+2862,3,5/16/2011,Muhoroni,7853.27,false
+5824,8,12/13/2013,Lazaro Cardenas,9166.35,true
+778,3,12/9/2017,Nong Hi,4155.89,true
+6243,4,4/19/2018,Luzern,4571.9,true
+9643,4,2/28/2018,Lewokluok,5124.09,true
+2321,10,1/22/2012,Ubatuba,5475.69,true
+989,10,6/11/2014,Estique,523.33,false
+3698,8,5/17/2017,Bembèrèkè,8259.9,false
+9298,2,5/31/2014,Malczyce,5702.18,true
+7563,1,10/21/2016,Champaign,6574.6,false
+1391,8,9/12/2010,Beni,4270.27,true
+4692,2,11/30/2015,Villa Nueva,8167.58,true
+8097,2,9/16/2015,Sumberkenanga,4801.06,true
+5171,1,6/20/2010,Dzyarzhynsk,7383.56,false
+2577,3,10/20/2011,Poligny,9863.04,false
+9187,4,8/14/2012,Vydreno,3761.18,true
+3299,6,6/20/2013,Tokarnia,9704.15,false
+4428,8,4/2/2014,Long’an Chengxiangzhen,4055.82,true
+7684,3,9/6/2017,Lahuaytambo,1853.47,true
+5779,6,10/28/2015,Spokoynaya,8649.22,true
+4666,9,1/28/2019,Conroe,7250.49,true
+4037,5,5/7/2012,Göteborg,3123.27,true
+9861,10,6/2/2018,Guali,8974.15,true
+7599,10,8/16/2017,Metz,4552.04,true
+2848,10,5/3/2012,Linggamanik,7009.64,false
+1682,4,10/11/2015,Nanortalik,1463.97,true
+7963,10,2/28/2012,Mangga Dua,5617.9,true
+8295,8,10/30/2010,Tolotangga,3286.77,true
+173,6,12/30/2019,Núi Đối,4465.55,false
+4261,8,6/13/2018,El Ksour,5585.98,false
+7888,10,3/6/2014,São Paio Merelim,5820.72,true
+8965,6,1/29/2012,Vallecillo,6574.04,false
+1139,10,9/3/2018,Longkali,7655.09,true
+208,8,4/4/2015,Dobra,4459.36,true
+4911,7,10/20/2011,Luče,2676.4,false
+3767,10,5/9/2010,Brokopondo,1385.0,true
+8378,10,7/18/2012,Don Matías,3065.44,true
+2036,6,10/28/2018,Lameira,3167.99,true
+2759,7,11/6/2014,Tatrang,5375.81,false
+8130,8,7/23/2015,Werota,6366.28,false
+6028,10,7/6/2018,Ķegums,2861.75,true
+9440,9,4/15/2015,Libu,4314.22,false
+7938,4,12/20/2011,Igurubi,8561.62,false
+419,10,2/16/2017,Jinfeng,4252.84,false
+9280,7,2/8/2012,Sonlit,3306.97,false
+1581,9,7/23/2017,Gangkou,6261.33,true
+2971,8,3/28/2015,Siwalan,922.64,false
+3009,1,1/28/2014,Ulanov,5483.06,true
+1554,2,4/12/2014,Nianpan,6341.78,false
+199,4,12/7/2019,Musashino,9586.08,false
+959,5,5/1/2013,Feliciano,2782.42,true
+8208,4,10/6/2019,Solna,7980.36,false
+3854,5,7/22/2018,Mouzáki,9170.85,true
+4085,6,1/25/2011,Shiyan,9900.15,true
+9512,6,5/29/2013,Potosí,5330.94,true
+2833,4,5/16/2010,Makoua,8302.71,false
+6021,1,10/11/2013,Guararema,5237.4,true
+7938,3,3/24/2014,Natividade,2857.86,false
+6305,6,5/28/2013,Grande Prairie,7326.42,true
+9183,10,4/22/2016,Shikhany,9291.13,false
+9524,2,4/23/2014,Kalidawir,4026.49,false
+2009,8,11/20/2017,Jiangguanchi,4227.16,false
+4056,6,10/8/2015,Bello,7554.15,true
+8320,10,3/13/2017,Al Matūn,9215.85,true
+3216,6,5/17/2016,San Pablo,9456.97,true
+2633,3,11/15/2013,La Paz,6310.45,true
+4329,3,11/13/2013,Mīrpur Sakro,132.92,false
+5946,9,1/1/2014,Sarnia,9347.98,true
+4993,8,9/22/2018,Hexi,7210.04,true
+7046,8,10/8/2013,Plereyan,21.41,true
+9031,8,12/8/2011,Itu,7217.06,true
+8222,2,10/29/2018,Gąsocin,2515.83,false
+1961,2,5/5/2012,Fenchen,1989.18,true
+9026,1,9/19/2010,Damasak,7901.89,false
+7476,6,5/20/2010,Thị Trấn Mường Lát,767.86,false
+1250,1,3/27/2010,Seremban,1130.22,false
+1833,1,8/6/2016,Gōdo,659.5,true
+7186,3,1/29/2018,Qinghu,2588.03,true
+6164,9,11/5/2012,Tonggoh,8600.07,true
+445,2,6/27/2014,Nyzhni Petrivtsi,6778.17,false
+7747,7,6/30/2016,Baiyanghe,7539.97,false
+4243,3,3/31/2015,Bromma,1144.71,false
+3103,6,4/18/2018,Nigel,6404.66,false
+7867,4,7/13/2011,Trongsa,5029.77,false
+567,3,8/26/2011,Shchukino,1072.91,false
+4589,2,11/16/2010,La Cruz de Río Grande,6606.96,false
+3556,5,6/4/2014,Capacho Nuevo,8460.84,true
+4,9,10/14/2013,Bala Murghab,9162.98,true
+1714,10,12/17/2013,Beiqi,6128.45,false
+2298,5,5/28/2012,Niort,9340.28,false
+194,10,10/31/2012,Balagon,2096.33,false
+8295,9,8/31/2011,Labuhanlalar,3742.84,false
+2847,8,4/30/2014,Morrito,6756.05,false
+287,9,7/31/2012,Brodósqui,2019.06,false
+1800,10,2/22/2018,Wushan,1069.54,false
+6834,4,9/12/2017,Sergelen,7363.59,true
+7620,9,3/19/2016,Bromma,9670.47,false
+3707,2,5/9/2018,Rymättylä,2887.07,true
+5292,7,5/11/2016,Härnösand,3577.4,true
+3318,10,3/28/2018,Nakhchivan,3730.96,false
+4277,6,10/2/2013,Ibiúna,1212.83,false
+8014,6,5/19/2012,Norrköping,8940.1,true
+3236,2,10/18/2016,Sindangpanji,4568.9,true
+1574,2,10/17/2014,Tanxi,4517.78,false
+6663,3,11/20/2018,Rehnān,9953.99,true
+6056,4,7/16/2010,Beslan,8171.62,true
+4964,2,1/9/2017,Elekmonar,1970.57,false
+9829,2,1/23/2014,Leshukonskoye,868.36,false
+9367,10,7/21/2010,Bandera,3630.21,true
+480,2,4/24/2015,Causip,5359.93,false
+2817,7,5/19/2014,Oesao,9101.2,true
+1197,8,9/9/2019,Banyumas,2650.52,false
+7765,8,6/26/2013,Huangyang,5495.04,false
+231,8,8/26/2016,Pasargunung,2041.36,true
+5456,1,1/2/2016,Macapá,9050.52,false
+3277,8,9/5/2017,Doloplazy,8476.68,true
+2236,1,2/26/2016,Jiangwang,8051.01,false
+7557,9,9/3/2016,Uttar Char Fasson,8471.18,true
+4543,9,10/26/2016,Gislaved,8110.79,false
+4633,2,4/3/2017,Cankuzo,1897.29,false
+9081,5,1/24/2016,Horní Bečva,7959.15,true
+8282,10,9/3/2015,Léo,9863.49,false
+2700,6,7/10/2017,Vikhorevka,9357.91,true
+1825,4,7/17/2019,Huotian,9447.31,true
+8668,7,4/28/2013,Perovo,7675.34,true
+2582,6,7/19/2013,Anguil,8085.82,false
+8849,1,4/5/2018,Villa Ángela,2719.18,false
+3930,10,3/28/2019,Yiwa,8315.68,false
+9194,8,3/16/2018,Sintansin,4985.76,true
+9605,2,4/16/2018,Tanabe,6504.18,false
+1858,6,2/14/2020,Tibakisa,7225.8,true
+2369,5,7/9/2017,Baška Voda,8118.68,false
+451,5,12/4/2018,Goyang-si,8747.23,false
+2859,3,11/15/2011,Zhaiwu,1281.91,false
+5196,3,8/25/2014,Drahovo,9171.52,true
+3241,3,3/16/2016,Bayt Wazan,8674.9,true
+7146,9,10/17/2016,Ha,9972.04,false
+6726,5,7/24/2010,Chicago,8231.73,true
+9960,1,4/20/2016,San Pedro de Macorís,7824.06,true
+5237,6,8/20/2018,Ibaraki,8280.75,true
+848,5,9/26/2013,Neochóri,8747.92,true
+3041,9,8/26/2013,Miyata,8084.24,true
+5913,10,5/7/2014,Baitu,4139.66,true
+6097,1,5/15/2013,Baibu,9915.28,false
+2010,6,9/10/2016,Knysna,3566.91,true
+4667,10,12/27/2014,San Diego,9114.61,true
+7141,2,5/4/2010,Cimara,9145.53,true
+6674,10,9/10/2011,Demyansk,7395.59,true
+8096,5,11/21/2016,Bieniewice,4904.5,false
+8897,7,9/15/2013,Santana de Parnaíba,5362.41,false
+7336,1,2/11/2018,Wangchuanchang,7435.19,false
+3722,9,3/1/2018,Novi Slankamen,79.97,true
+5276,3,8/23/2017,Antas,5768.33,false
+7354,3,2/13/2011,Serra de Santa Marinha,9329.32,true
+4760,8,11/1/2014,Tanahwangko,7154.28,false
+2891,6,12/6/2012,Paita,2724.74,false
+9198,1,11/9/2014,La Mesa,5691.97,true
+3546,1,2/20/2020,Horad Krychaw,1464.06,true
+1924,4,1/9/2011,Gornji Grad,6493.21,true
+608,3,7/20/2012,Ra-ngae,3247.11,true
+1616,8,2/3/2018,Patiya,4870.25,false
+3715,3,2/28/2013,Sugihmukti,6230.24,false
+4874,1,10/27/2017,Pajo,4937.02,false
+7906,6,6/12/2010,Vila Alva,1536.21,false
+2115,9,6/17/2014,Pincher Creek,8480.6,true
+6579,9,2/12/2017,Manzil Bū Zalafah,293.85,true
+6708,1,12/27/2011,Jarinu,622.0,false
+2109,4,2/24/2012,Aldeias de Cima,3209.43,false
+3210,8,6/7/2012,Eskilstuna,8207.34,false
+6046,7,9/10/2018,Spitak,1713.83,true
+144,7,6/27/2013,Düsseldorf,6885.5,false
+7650,2,5/18/2015,Saint-Julien-en-Genevois,9078.1,true
+6980,9,9/9/2017,Palaió Fáliro,7332.48,false
+248,2,1/6/2016,Cruz de los Milagros,7223.15,true
+6830,3,6/15/2016,Sutysky,4204.15,true
+9633,7,11/11/2016,Maronge,2512.58,true
+596,2,9/25/2012,Xamba,629.29,false
+6076,1,5/10/2017,Xinshui,8333.53,false
+8250,9,6/9/2014,Néos Mylótopos,662.65,false
+4603,8,3/13/2016,Parakou,1747.6,true
+1994,7,12/1/2011,Krzeszów,4341.93,true
+5918,8,5/31/2019,Migrate,3683.41,true
+5260,8,11/4/2018,Dongpu,7518.84,false
+2687,3,7/9/2017,Wonosobo,8016.54,false
+4168,4,10/30/2013,Ngembul,3230.65,false
+5248,5,8/7/2016,Kremidivka,4835.67,true
+1563,6,10/23/2011,Mulanay,237.34,false
+5481,1,11/3/2011,San Andres,6298.49,false
+3074,6,8/8/2019,Anhua,8825.81,false
+6227,3,3/1/2014,Xiyang,7718.87,false
+1071,4,1/9/2016,Upernavik,8035.88,false
+3407,3,5/8/2011,Puerto Asís,6487.67,true
+9702,3,9/11/2019,Pniewy,1660.87,true
+5043,4,10/30/2019,Dagohoy,454.13,true
+3236,10,7/6/2017,Drummondville,4278.04,true
+3295,1,12/25/2018,Changhua,3805.63,false
+5750,4,10/24/2012,Qingtong,2894.03,true
+6978,4,4/11/2016,Shenzhong,2170.99,true
+3924,4,6/16/2017,Qitai,493.17,false
+8628,4,5/14/2018,Timiryazevo,3779.26,false
+3462,3,4/8/2011,Bella Vista,935.19,false
+6806,3,2/23/2012,Longfeng,2603.82,false
+6871,6,4/23/2013,Krasnokamsk,7132.62,false
+9673,3,3/21/2018,Ibirité,6565.47,false
+9918,4,10/28/2019,Tanggeung Kolot,1784.34,true
+1139,10,4/10/2017,Xianzong,9950.1,false
+5141,4,1/22/2016,Coruripe,5997.23,true
+9232,9,2/23/2019,Simao,6618.48,false
+1826,3,8/15/2013,Libourne,8883.97,false
+5246,6,10/2/2011,Gendiwu,8654.81,false
+6508,2,10/7/2016,Trang,7467.76,false
+9756,8,1/4/2017,Boulsa,4054.35,true
+7081,7,11/29/2014,Balma,6780.98,false
+8522,8,1/18/2018,Oromocto,1223.75,true
+29,9,9/17/2014,Farshūţ,7361.51,true
+2810,10,6/20/2011,Guaramirim,7708.33,false
+9418,5,5/3/2012,Baitang,2278.36,false
+9216,10,11/3/2013,Miaoxi,814.62,true
+3473,10,2/7/2018,Nanning,5892.81,true
+3135,6,6/30/2010,Pop,6888.53,false
+7347,7,4/8/2010,Teknāf,9558.35,true
+4181,9,2/3/2015,Krajan Satu,9221.73,false
+177,7,11/3/2014,Pangkalan,3173.58,false
+9689,2,8/7/2019,Ulichnoye,659.69,true
+5882,2,10/14/2016,Inongo,3451.24,false
+6718,8,8/8/2014,Chervonohryhorivka,1315.96,false
+9976,10,10/30/2017,Paldit,8055.32,false
+8268,2,10/10/2010,Stockholm,3015.52,false
+8164,5,6/1/2014,La Paz Centro,3723.59,false
+9016,1,7/9/2016,Fenshui,8633.77,true
+4233,3,4/24/2010,Psary,6787.57,false
+3789,10,7/18/2014,Rawson,6262.51,false
+4811,3,8/20/2014,Sanli,6024.15,true
+5554,3,3/14/2011,Krajan Tegalombo,6249.66,true
+4335,5,2/14/2017,Pateros,4663.93,true
+3375,7,3/5/2010,Svalöv,4488.13,true
+6705,5,2/11/2016,Tutul,841.86,true
+6193,7,5/7/2012,Iúna,9930.07,true
+7335,3,4/27/2015,Ballymahon,6153.88,true
+1994,3,2/8/2015,Daqingshan,5064.4,true
+212,4,8/16/2014,Jiangtian,3551.11,true
+7433,3,7/29/2014,Dobrich,1831.73,false
+9386,6,10/17/2019,Sergiyev Posad,8490.31,true
+9286,5,5/31/2014,Goim,6479.37,true
+4470,2,4/22/2011,Laya,3217.63,false
+2261,3,3/29/2018,Tuoshi,3770.95,false
+6053,1,4/28/2014,Apostolove,6306.36,true
+5890,8,3/28/2011,Sumuranyar,7138.07,true
+7785,6,3/28/2014,Montinho,378.05,true
+8607,4,11/20/2012,Marseille,6411.62,false
+770,8,12/7/2018,Kertayuga,7812.17,true
+9463,2,6/30/2018,Naran Bulag,1865.71,true
+9274,1,6/10/2019,Bayt Līd,4468.72,false
+7399,5,6/9/2013,Deshan,7574.09,true
+5820,2,11/12/2017,Monte Agudo,5498.85,false
+1146,7,8/15/2019,Capayán,1188.92,true
+9480,5,11/4/2012,Nepeña,5516.41,true
+9994,7,5/29/2017,Honolulu,2069.74,false
+3768,8,10/1/2010,Keyi,6229.63,false
+97,3,6/17/2012,Juuka,6491.63,true
+8734,3,3/18/2010,Jianghua,2498.2,true
+5786,2,12/11/2013,Groblersdal,2001.04,true
+7132,9,9/25/2019,Najin,4546.58,false
+9778,5,10/23/2015,Guojiazhuang,1690.04,false
+289,10,5/15/2017,Chaínça,797.84,false
+6544,6,11/28/2014,Zhezqazghan,2005.61,true
+4471,10,6/5/2011,Jiḩānah,6526.5,false
+7242,5,3/27/2010,Duntou,2641.11,false
+9621,7,3/2/2014,Kota Kinabalu,4322.36,true
+3306,7,5/1/2011,Cañada de Gómez,542.58,false
+5198,1,2/6/2013,Jagistay,766.37,true
+9410,9,4/30/2017,Krasnomayskiy,3946.73,false
+9645,2,12/30/2017,Cartí Suitupo,8671.17,true
+4506,8,1/30/2016,Half Way Tree,5790.71,true
+3011,6,6/6/2019,Osasco,8208.49,false
+6285,10,8/8/2016,Krasnyy Klyuch,2550.18,true
+7259,4,9/20/2017,Genang,5092.82,true
+8132,4,8/9/2015,San Clemente,1926.66,true
+2571,1,10/11/2017,Sanxi,4869.01,true
+6673,1,3/3/2018,Pamoyanan,7915.19,true
+8761,8,8/15/2018,San Francisco,8827.28,false
+1819,7,2/24/2012,Ośno Lubuskie,4077.74,true
+8951,9,6/27/2016,Shanban,8612.84,true
+2599,3,3/16/2017,Even Yehuda,4570.17,false
+4004,5,4/30/2016,Taouima,6753.65,true
+9139,6,11/4/2016,Kemendung,5609.41,false
+7577,5,8/2/2010,Nenotes,6396.64,true
+1867,9,3/1/2015,Nuwara Eliya,9546.05,false
+5898,5,8/27/2018,Borovikha,4935.38,true
+5366,9,12/25/2012,Changxuanling,5650.2,true
+908,6,8/4/2019,Karangkeng,2287.43,false
+8325,7,4/4/2011,Paris 17,2103.13,false
+3768,8,12/30/2017,Uglegorsk,1589.35,true
+9606,2,12/10/2015,Nuga,9563.35,true
+4810,3,8/22/2010,Pinaring,7356.47,true
+3608,9,10/31/2010,Firmat,5896.43,true
+8003,10,5/30/2019,Vřesina,8897.43,false
+6282,2,6/3/2017,Nicola Town,4120.46,false
+3732,7,4/26/2014,Yujia’ao,9897.14,false
+1446,7,3/7/2011,Pianbai,3865.67,false
+1457,9,8/12/2016,Artesianón,1775.18,false
+3472,1,10/3/2016,Tauranga,8411.47,true
+3754,2,6/30/2015,Baratan,6470.16,false
+1314,9,3/9/2017,Mānānwāla,330.51,true
+1804,1,12/8/2011,Maiwal,637.3,false
+9345,4,2/12/2013,Cametá,3672.48,true
+8899,5,4/24/2017,Dunlewy,929.95,false
+3989,10,7/3/2012,Gaoua,8370.35,false
+3178,4,10/25/2011,Dayingjie,6352.62,true
+7812,10,4/24/2016,Dmanisi,529.39,true
+9456,6,4/19/2017,Tarsouat,8741.39,false
+5722,10,8/5/2012,Lethem,824.11,true
+5800,9,12/19/2011,La Libertad,5224.15,true
+3458,5,6/14/2010,Jiezi,6881.52,false
+9902,2,7/14/2014,Hongmei,114.21,false
+6318,9,8/10/2012,Tudela,8057.44,true
+8467,7,2/1/2011,Villa del Carmen,9726.36,true
+6910,5,11/5/2012,Longtan,4375.99,false
+6468,1,8/5/2018,Słupsk,1619.99,true
+8267,2,9/5/2016,Rio Branco,4598.22,false
+496,1,11/25/2012,Kompaniyivka,4587.47,true
+8477,3,4/20/2017,Bang Kruai,7870.07,false
+771,10,1/7/2020,Pantukan,7164.28,true
+667,8,4/25/2014,Dalovice,5695.29,false
+5596,6,9/12/2016,Xiaoshiqiao,3022.21,false
+7505,6,10/21/2014,Muara,9736.86,true
+2606,9,12/31/2012,Pärnu,3335.12,true
+6694,6,5/31/2015,Khasht’arrak,2732.8,false
+420,8,3/10/2017,Tianmen,4552.07,false
+7974,9,12/29/2013,Montélimar,1717.34,true
+2588,1,9/11/2011,Cirangkong,5217.49,true
+5451,4,2/17/2013,Morada Nova,330.65,true
+7537,3,6/13/2015,Cimara,2786.66,true
+889,3,12/11/2010,Pio,6356.57,false
+561,6,11/16/2017,Rawannawi Village,3338.07,true
+7303,1,11/20/2014,Pinsk,8888.01,false
+1154,6,5/17/2017,Grębów,852.55,false
+5133,6,5/4/2015,Itaí,4845.27,true
+2512,3,9/15/2019,Qarah Bāgh,8433.34,false
+9110,4,2/27/2013,Nazrēt,3410.72,true
+2623,7,9/14/2010,Nueve de Julio,4989.94,false
+6984,5,11/27/2010,Limit,1094.3,true
+4052,1,9/8/2012,Kryvyy Rih,5088.59,true
+5810,6,12/27/2012,Malakal,4592.32,true
+2859,1,9/8/2019,Sveg,8521.25,true
+8762,1,12/5/2017,Ishinomaki,3479.94,false
+9507,5,11/12/2016,Effium,5500.74,false
+4183,9,1/21/2015,Guanmian,4007.26,false
+5170,1,6/9/2010,Umeå,7689.84,false
+7392,6,4/1/2012,Maurole,9302.35,true
+60,4,4/8/2010,Tanggungrejo,1436.49,true
+79,8,5/13/2015,Tulung,6115.03,true
+1908,3,1/14/2014,Gaomiaoji,459.25,false
+3154,9,1/10/2018,Quinta,9706.24,false
+2914,9,4/20/2010,Castedo,4097.97,true
+5155,7,10/9/2011,Osek nad Bečvou,1902.09,true
+1664,10,11/16/2019,Nangen,2719.37,false
+8468,7,1/18/2014,Cikalaces,5106.73,true
+4547,3,9/4/2017,Bielice,2230.92,false
+131,3,5/7/2011,Hejia,850.1,true
+1790,5,11/23/2014,Gangba,5295.89,false
+8305,4,7/14/2012,Kladovo,2063.62,true
+8111,2,6/16/2010,Tenjolaya,8979.75,false
+2434,9,2/18/2011,Pagersari,460.47,false
+4069,1,8/9/2016,Songculan,3010.03,true
+4439,1,6/24/2019,Malibago,5811.92,true
+2282,4,9/18/2012,Changzhi,9121.11,false
+3737,5,9/7/2013,Chatuchak,4131.14,false
+5552,6,7/12/2017,Al Manzilah,8121.96,false
+2284,9,5/26/2011,Chengfeng,6139.31,true
+1141,9,2/23/2017,Bojongbenteng,3438.51,true
+5259,4,4/9/2017,Nartkala,1271.56,false
+4374,6,1/30/2015,Cuauhtemoc,6152.24,true
+184,7,8/21/2017,Padurung,4572.66,true
+2516,2,9/18/2013,Lazaro Cardenas,6455.24,true
+9808,5,2/24/2018,Mysiadło,3200.27,false
+5876,7,12/25/2014,Czarna Dąbrówka,8947.58,false
+7623,4,1/7/2020,Ágios Matthaíos,491.95,true
+9734,3,1/10/2012,Aracruz,9306.17,false
+5769,8,12/20/2011,Bamut,2032.44,true
+2105,1,8/19/2011,Sandaogou,755.88,false
+8084,6,3/14/2017,Telgawah,2212.96,true
+1049,6,2/26/2016,Sindangjati,8524.33,true
+6834,5,2/7/2017,Baturaja,5074.9,true
+8943,3,2/28/2015,Gagnoa,5118.8,true
+2024,9,3/25/2012,Wum,7763.62,true
+8381,2,2/22/2019,Ocoyo,8621.84,false
+8343,10,8/15/2014,Bila Krynytsya,79.28,true
+9271,3,10/6/2014,Gandekan,5339.92,false
+8951,2,2/4/2012,Xinhuang,6619.93,false
+2559,2,5/2/2017,Chābahār,6696.2,true
+7365,6,12/7/2013,Pácora,9188.15,true
+1988,9,10/31/2012,Shenavan,8598.98,false
+1427,8,11/8/2015,Birendranagar,8536.24,true
+2941,6,3/16/2018,Jinan,1462.82,false
+8283,10,6/23/2017,Ma’an,1549.77,true
+3813,6,8/15/2013,Turus,6599.03,false
+1030,8,7/12/2013,Janas,8738.61,false
+1929,6,1/14/2018,Awayan,4990.69,false
+7584,7,1/31/2011,Boaco,5155.45,false
+344,3,1/7/2020,Ambohitrolomahitsy,4715.21,false
+417,6,4/12/2018,Dongtuan,7360.93,true
+9323,3,7/16/2014,Tiên Lãng,962.74,true
+300,6,6/29/2015,Khao Kho,1388.0,false
+6378,3,12/14/2010,Villanova,4524.89,true
+6041,9,8/31/2015,Himi,2593.64,true
+8966,2,3/12/2016,Cabeçudos,8505.8,true
+1521,5,12/31/2013,Mesa,1171.49,false
+8785,8,11/21/2010,Fushëkuqe,8412.56,false
+4570,2,12/17/2019,Grzechynia,4694.17,true
+2463,8,11/27/2014,Huangtu,586.55,true
+1638,5,12/16/2013,Kota Bharu,402.44,true
+1951,7,1/2/2016,Annecy,7782.88,true
+2384,7,4/20/2010,Moholm,9271.24,false
+5014,2,6/9/2018,Makoba,769.25,false
+6388,6,11/4/2011,Tygda,3691.93,false
+5261,9,7/26/2016,Mosul,5809.17,false
+6819,6,8/14/2010,El Progreso,5897.33,true
+2087,6,10/4/2014,Pasauran,3364.44,false
+3408,7,10/24/2016,Vin’kivtsi,3745.78,false
+3414,4,4/6/2013,Boldumsaz,5721.12,true
+2213,7,1/28/2011,Albarraque,6604.42,false
+411,10,8/11/2013,Kadugede,3518.31,true
+7039,6,1/20/2015,Ngulahan,9741.78,false
+8026,5,2/14/2018,Rengat,6194.03,false
+1771,5,11/18/2016,Trảng Bom,9302.88,true
+8637,5,12/26/2019,Eṭ Ṭaiyiba,5562.72,false
+1737,6,12/9/2010,Maoshan,2689.27,false
+8080,3,4/3/2012,Carriedo,4456.95,false
+7653,7,3/28/2012,Sangallaya,6944.51,true
+687,5,4/7/2012,Uglovoye,3040.71,false
+468,4,9/25/2012,Huangqiao,7661.15,true
+4284,3,12/24/2018,Shushi,7305.59,false
+1200,8,8/2/2014,Yixin,4407.48,true
+4490,9,12/16/2018,Edgeworthstown,9495.59,true
+7919,7,1/3/2020,Ariquemes,6591.25,false
+611,4,5/17/2011,Honolulu,9921.83,true
+4124,9,1/28/2018,Veltruby,7691.02,false
+4120,2,9/8/2018,San Carlos,8803.46,true
+1343,10,12/25/2015,Mstsislaw,3114.94,false
+5591,8,9/30/2010,Bongandanga,4489.72,false
+1365,6,11/14/2014,Juiz de Fora,5664.9,true
+7340,4,12/30/2019,Sultan Kudarat,7601.41,true
+9820,4,7/2/2015,Robertsfors,7097.02,false
+6857,4,8/3/2012,Itaí,5415.52,true
+4279,1,6/21/2016,Gaoyu,7117.8,false
+4130,2,5/27/2014,Pudasjärvi,2437.68,true
+3434,9,9/27/2018,Luniao,5508.78,false
+3177,6,3/29/2017,Wang Hin,7899.23,true
+6797,3,7/10/2011,Silvino Lobos,1446.47,true
+8703,4,10/14/2017,Junín,8661.48,true
+8637,2,7/8/2013,Cisownica,6702.36,false
+5762,7,11/30/2010,Yangqiaodian,4152.38,false
+4715,7,7/15/2013,Bangshipu,2303.94,true
+1183,5,5/11/2014,Yunxi,1781.59,true
+3682,7,8/2/2017,Leskovec pri Krškem,6635.98,false
+9588,2,7/15/2017,Pamotan,9744.87,false
+458,10,5/18/2017,Johogunung,4593.64,true
+2377,3,9/4/2015,Cela,7260.76,false
+3582,5,4/16/2010,Barwałd Górny,8506.8,false
+6624,2,9/10/2017,Xinjia,3097.81,true
+8288,9,9/25/2015,Maddela,1427.39,true
+2036,9,9/7/2017,Licun,8097.98,false
+6748,3,12/22/2016,Ciduren,1206.93,true
+8038,2,5/2/2019,Kuala Lumpur,338.9,false
+5925,10,9/25/2010,Boise,1978.75,true
+7053,10,12/23/2014,Korba,1648.57,true
+9953,9,12/28/2018,Muzhijie,9269.38,true
+1479,4,6/21/2015,Moutsamoudou,9447.91,false
+8392,2,1/10/2014,Baima,2589.85,true
+9058,5,7/30/2018,Zhaoxian,1675.05,true
+4784,5,12/1/2016,Riihimäki,4443.29,true
+2165,1,10/22/2011,Progër,1324.07,false
+4237,9,3/23/2014,Villa Urquiza,2676.06,false
+2267,10,6/9/2011,Henglin,4854.57,true
+7289,6,11/1/2012,Guaitarilla,1027.05,false
+7005,7,4/26/2019,Konkwesso,9857.85,false
+6106,5,3/11/2014,Wanquan,1697.52,true
+4960,1,1/17/2012,Bordeaux,6829.54,true
+6776,3,6/16/2014,Honda,2999.76,true
+8684,4,12/10/2012,Breda,8502.21,true
+9147,3,6/25/2019,Kauhava,385.97,true
+6525,5,5/9/2016,Xinxu,7860.98,false
+5304,3,6/22/2013,Bueng Khong Long,4246.22,true
+4430,4,8/1/2017,Moussoro,5275.82,false
+2219,2,6/5/2018,São Roque,4516.89,true
+433,4,1/25/2017,Mossel Bay,4598.63,false
+6202,2,3/21/2014,Shunyi,9126.97,false
