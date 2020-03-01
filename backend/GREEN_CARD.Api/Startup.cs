@@ -39,11 +39,11 @@ namespace GREEN_CARD.Api {
 
             services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
             services.AddSingleton<GREEN_CARDQuery>();
-            services.AddSingleton<GREEN_CARDMutation>();
+            // services.AddSingleton<GREEN_CARDMutation>();
 
-            services.AddSingleton<PlayerType>();
-            services.AddSingleton<PlayerInputType>();
-            services.AddSingleton<SkaterStatisticType>();
+            // services.AddSingleton<PlayerType>();
+            // services.AddSingleton<PlayerInputType>();
+            // services.AddSingleton<SkaterStatisticType>();
 
             services.AddSingleton<UserType>();
             services.AddSingleton<ItemType>();
