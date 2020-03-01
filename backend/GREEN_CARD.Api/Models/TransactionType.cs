@@ -2,6 +2,7 @@ using GraphQL.Types;
 using GREEN_CARD.Api.Helpers;
 using GREEN_CARD.Core.Data;
 using GREEN_CARD.Core.Models;
+using GREEN_CARD.Data.Repositories;
 
 namespace GREEN_CARD.Api.Models
 {

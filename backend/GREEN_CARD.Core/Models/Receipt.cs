@@ -13,7 +13,7 @@ namespace GREEN_CARD.Core.Models
         public int TransactionId{get;set;}
         public String ReceiptCode{get;set;}
         public double Rewards{get;set;}
-        public double Company{get;set;}
+        public String Company{get;set;}
         public double CO2Impact{get;set;}
     }
 }

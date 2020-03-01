@@ -9,6 +9,7 @@ namespace GREEN_CARD.Api.Helpers
     public class ContextServiceLocator
     {
         public IPlayerRepository PlayerRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<IPlayerRepository>();
+        
         public ISkaterStatisticRepository SkaterStatisticRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<ISkaterStatisticRepository>();
 
         public IUserRepository UserRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<IUserRepository>();

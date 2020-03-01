@@ -15,7 +15,7 @@ namespace GREEN_CARD.Api {
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:5000/","http://172.16.59.124:5000")
+                .UseUrls("http://localhost:5000/", "http://172.16.60.59:5000")
                 .Build();
     }
 }
