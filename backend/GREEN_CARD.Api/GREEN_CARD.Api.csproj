@@ -15,6 +15,7 @@
     <PackageReference Include="graphiql" Version="1.2.0" />
     <PackageReference Include="GraphQL" Version="2.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="RandomNameGeneratorLibrary" Version="1.2.2" />
     <PackageReference Include="Scripting" Version="0.0.0.1" />
   </ItemGroup>
 
