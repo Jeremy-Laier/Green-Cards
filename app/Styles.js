@@ -17,5 +17,14 @@ export default StyleSheet.create({
     display: "flex",
     flex: 1,
     backgroundColor: '#4be03a'
+  },
+
+  smalltitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+  }, 
+
+  indentedAnswer: {
+    paddingLeft: 20,
   }
 });

@@ -34,8 +34,8 @@ const UserInfo = graphql(userQuery)(props => {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <View style={{ flex: 1, alignItems: 'center', flexDirection: 'column' }}>
-          <View style={{ paddingTop: 60, flex: 1, alignItems: 'center' }}>
-            <Image style={{ width: 200, height: 200 }} source={require('../assets/greenlogo.png')}></Image>
+          <View style={{ paddingTop: 80, flex: 1, alignItems: 'center' }}>
+            <Image style={{ width: 200, height: 200 }} source={require('../assets/person.png')}></Image>
           </View>
           <View style={{ flex: 2, flexDirection: 'column', width: 300, justifyContent: 'space-around' }}>
             <View style={{ flex: 1 }}>
