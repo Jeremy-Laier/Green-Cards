@@ -10,8 +10,6 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Net;
 using System.Drawing; 
-using GREEN_CARD.Api.Helpers;
-
 namespace GREEN_CARD.Api.Controllers {
     
     [Route("api/receipt/")] 
@@ -32,7 +30,6 @@ namespace GREEN_CARD.Api.Controllers {
                   formFile.FileName);  
 
                     ImageParser.ParseImage(formFile.FileName);
-
                      using (var stream = new FileStream(filePath, FileMode.Create)) {  
                          await formFile.CopyToAsync(stream);  }  
                 }
