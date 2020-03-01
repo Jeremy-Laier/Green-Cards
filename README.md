@@ -8,5 +8,6 @@
 
 <a> For every environmentally friendly purchase you make, you get cash back! Use it just like your normal credit card or scan your reciepts using our deep learning techonolgy for even more, specialized cash back rewards! </a>
 
-What we used:
+## What we used:
+
 > Reactive Native, GraphQL, Postgrsql, .net, Python
