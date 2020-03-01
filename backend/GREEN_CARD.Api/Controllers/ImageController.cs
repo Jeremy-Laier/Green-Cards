@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Net;
 using System.Drawing; 
+using GREEN_CARD.Api.Helpers;
 
 namespace GREEN_CARD.Api.Controllers {
     
@@ -30,12 +31,12 @@ namespace GREEN_CARD.Api.Controllers {
                   Directory.GetCurrentDirectory(), "wwwroot",   
                   formFile.FileName);  
 
+                    ImageParser.ParseImage(formFile.FileName);
+
                      using (var stream = new FileStream(filePath, FileMode.Create)) {  
                          await formFile.CopyToAsync(stream);  }  
                 }
             }
-
-            
             return Ok(new { count = files.Count, size, transactionId });
         }
     }
