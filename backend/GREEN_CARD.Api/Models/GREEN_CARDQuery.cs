@@ -28,7 +28,6 @@ namespace GREEN_CARD.Api.Models
                 arguments: new QueryArguments(new QueryArgument<IntGraphType> { Name = "userId" }),
                 resolve: context => contextServiceLocator.UserRepository.Get(context.GetArgument<int>("userId")));
 
-
             Field<ListGraphType<TransactionType>>(
                 "transactions",
                 arguments: new QueryArguments(
@@ -46,5 +45,6 @@ namespace GREEN_CARD.Api.Models
         }
     }
 }
+
 
 
