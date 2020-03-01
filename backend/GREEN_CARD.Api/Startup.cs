@@ -12,26 +12,21 @@ using GREEN_CARD.Core.Data;
 using GREEN_CARD.Data;
 using GREEN_CARD.Data.Repositories;
 
-
-namespace GREEN_CARD.Api
-{
-    public class Startup
-    {
-        public Startup(IConfiguration configuration)
-        {
+namespace GREEN_CARD.Api {
+    public class Startup {
+        public Startup(IConfiguration configuration) {
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
-        {
+        public void ConfigureServices(IServiceCollection services) {
             services.AddMvc();
            
             services.AddHttpContextAccessor();
             services.AddSingleton<ContextServiceLocator>();
-            services.AddDbContext<GREEN_CARDContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:GREEN_CARDDb"]));
+            services.AddDbContext<GREEN_CARDContext>(options => options.UseNpgsql("Host=35.232.125.64;Database=dev-hi2020-v0;Username=postgres;Password=darwin;"));
             services.AddTransient<IPlayerRepository, PlayerRepository>();
             services.AddTransient<ISkaterStatisticRepository, SkaterStatisticRepository>();
             services.AddSingleton<IDocumentExecuter, DocumentExecuter>();

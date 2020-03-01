@@ -14,5 +14,6 @@ namespace GREEN_CARD.Core.Models
         public DateTime Date{get;set;}
         public String Location{get;set;}
         public double Amount{get;set;}
+        public bool HaveReceipt {get;set;}
     }
 }

@@ -1,14 +1,14 @@
 ﻿ 
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
- 
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Threading.Tasks;
 
-namespace GREEN_CARD.Api
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
+namespace GREEN_CARD.Api {
+    public class Program {
+        public static void Main(string[] args) {
             BuildWebHost(args).Run();
         }
 
