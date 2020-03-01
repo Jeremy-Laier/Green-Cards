@@ -64,7 +64,7 @@ export default function App() {
                 color={color}
               />
             );
-          } else if (route.name === 'CameraScan') {
+          } else if (route.name === 'Scan') {
             return (
               <Ionicons
                 name='ios-camera'
@@ -90,7 +90,7 @@ export default function App() {
     >
       <Tab.Screen name="Overview" component={Overview} />
       <Tab.Screen name="History" component={History} />
-      <Tab.Screen name="CameraScan" component={CameraScan} />
+      <Tab.Screen name="Scan" component={CameraScan} />
       <Tab.Screen name="Profile" component={Profile} />
 
     </Tab.Navigator>
