@@ -140,7 +140,7 @@ export class ImageView extends React.Component {
   };
 
   handleUploadPhoto = () => {
-    fetch("http://172.16.43.81:5000/api/receipt", {
+    fetch("http://172.16.60.59:5000/api/receipt", {
       method: "POST",
       body: this.createFormData(this.img)
     })

@@ -4,6 +4,7 @@ import { AsyncStorage, Button, Text, TextInput, View, Image, Dimensions } from '
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator, HeaderStyleInterpolators, HeaderHeightContext } from '@react-navigation/stack';
 import TabNavigation from './TabNavigation';
+import './global'
 
 const AuthContext = React.createContext();
 
@@ -71,7 +72,7 @@ function SignInScreen() {
           secureTextEntry
           style={{ fontSize: 20, paddingBottom: 50, textAlign: 'center' }}
         />
-        <Button title="Sign in" onPress={() => signIn({ username, password })} />
+        <Button title="Sign in" onPress={() => {global.userId = (username == null) ? null : username ; signIn({ username, password })} } />
       </View>
     </View >
   );
