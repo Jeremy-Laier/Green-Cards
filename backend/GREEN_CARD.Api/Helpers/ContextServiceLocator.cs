@@ -13,7 +13,7 @@ namespace GREEN_CARD.Api.Helpers
 
         public IUserRepository UserRepository =>  _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<IUserRepository>();
 
-        public ITransctionRepository TransctionRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<ITransctionRepository>();
+        public ITransactionRepository TransctionRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<ITransactionRepository>();
 
         public IItemRepository ItemRepository => _httpContextAccessor.HttpContext.RequestServices.GetRequiredService<IItemRepository>();
 
