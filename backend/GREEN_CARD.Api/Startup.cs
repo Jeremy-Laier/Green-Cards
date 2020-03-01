@@ -12,21 +12,16 @@ using GREEN_CARD.Core.Data;
 using GREEN_CARD.Data;
 using GREEN_CARD.Data.Repositories;
 
-
-namespace GREEN_CARD.Api
-{
-    public class Startup
-    {
-        public Startup(IConfiguration configuration)
-        {
+namespace GREEN_CARD.Api {
+    public class Startup {
+        public Startup(IConfiguration configuration) {
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
-        {
+        public void ConfigureServices(IServiceCollection services) {
             services.AddMvc();
            
             services.AddHttpContextAccessor();
