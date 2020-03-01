@@ -12,22 +12,31 @@ using System.Net;
 using System.Drawing; 
 
 namespace GREEN_CARD.Api.Controllers {
-    // [Route("[/greencard/image]")] 
-    // public class ImageController: Controller {
-        
-    //     [HttpPost]
-    //     // public async Task<IActionResult> Post([FromBody] List<IFormFile> files) {
-    //     //     // long size = files.Sum(f => f.Length);
+    
+    [Route("api/receipt/")] 
+    public class ImageController: Controller {
+        public readonly IHostingEnvironment _environment;
+        public ImageController(IHostingEnvironment environment) {
+            _environment = environment ?? throw new ArgumentNullException(nameof(environment));
+        }
 
-    //     //     // foreach( var formFile in files) {
-    //     //     //     if (formFile.Length > 0) {
-    //     //     //         var filePath = Path.GetTempFileName();
-    //     //     //         using (var stream = System.IO.File.Create(filePath)) {
-    //     //     //             await formFile.CopyToAsync(stream);
-    //     //     //         }
-    //     //     //     }
-    //     //     // }
-    //     //     // return Ok(new { count = files.Count, size});
-    //     // }
-    // }
+        [HttpPost]
+        public async Task<IActionResult> Post(List<IFormFile> files, int transactionId) {
+            long size = files.Sum(f => f.Length);
+
+            foreach (var formFile in files) {
+                if (formFile.Length > 0) {
+                    var filePath = Path.Combine(  
+                  Directory.GetCurrentDirectory(), "wwwroot",   
+                  formFile.FileName);  
+
+                     using (var stream = new FileStream(filePath, FileMode.Create)) {  
+                         await formFile.CopyToAsync(stream);  }  
+                }
+            }
+
+            
+            return Ok(new { count = files.Count, size, transactionId });
+        }
+    }
 }
