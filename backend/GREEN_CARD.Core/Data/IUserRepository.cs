@@ -7,7 +7,7 @@ namespace GREEN_CARD.Core.Data
 {
     public interface IUserRepository
     {
-        Task<User> Get(int uderId);
+        Task<User> Get(int id);
         Task<User> GetRandom();
     }
 }

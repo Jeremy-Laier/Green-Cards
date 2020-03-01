@@ -1,4 +1,4 @@
- 
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,28 +11,21 @@ namespace GREEN_CARD.Data.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        private User user;
+        private readonly GREEN_CARDContext _db;
 
         public UserRepository(GREEN_CARDContext db)
         {
-            user = new User();
-            user.Email = "efa29@uic.edu";
-            user.AccountNumber = 32323;
-            user.AccountLimit = 350000.00;
-            user.LastName = "Osha";
-            user.FirstName = "Daniel";
-            user.PhoneNumber = "3234568915";
-              
+            _db = db;
+        }
+        public async Task<User> Get(int id)
+        {
+            return await _db.Users.FirstOrDefaultAsync(u => u.UserId == id);
         }
 
-        public async  Task<User> Get(int userId)
+        public Task<User> GetRandom()
         {
-            return user;
+            return _db.Users.FirstOrDefaultAsync();
         }
 
-        public async Task<User> GetRandom()
-        {
-            return user;
-        }
     }
 }
