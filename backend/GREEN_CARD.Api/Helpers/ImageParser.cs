@@ -6,14 +6,14 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 
 namespace GREEN_CARD.Api.Helpers {
-    public class ImageParser {
-        public void ParseImag21Ze(String fileName) { 
+    public static class ImageParser {
+        public static void ParseImage(String fileName) { 
             System.Diagnostics.Process process = new System.Diagnostics.Process();
             process.StartInfo = new System.Diagnostics.ProcessStartInfo() {
                 UseShellExecute = false,
                 CreateNoWindow = false,
                 FileName = "python",
-                Arguments = "ocr.py --image " + fileName,
+                Arguments = "ocr.py --image wwwroot/" + fileName,
                 RedirectStandardError = true,
                 RedirectStandardOutput = true
             };
@@ -24,9 +24,20 @@ namespace GREEN_CARD.Api.Helpers {
             string output = reader.ReadToEnd();
 
             // Write the redirected output to this application's window.
-            Console.WriteLine(output);
-
             process.WaitForExit();
+        }
+        public static List<(string, string)> FormatString(string s) {
+            List<string> parsed = new List<string>();
+            var final = new List<(string, string)>();
+            string tmp = "";
+            foreach (char c in s) {
+                if (c == '?') { parsed.Add(tmp); tmp = ""; }
+                else if (c == '(' || c == ')' || c == '\'') {}
+                else { tmp = tmp + c.ToString(); }
+            }
+
+            foreach (string item in parsed) { var i = item.Split(','); final.Add((i[0], i[1])); }
+            return final;
         }
     }
 }
