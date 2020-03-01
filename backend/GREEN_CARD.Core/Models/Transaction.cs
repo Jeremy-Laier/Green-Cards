@@ -7,6 +7,7 @@ namespace GREEN_CARD.Core.Models
 {
     public class Transaction{
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int TransactionId{get;set;}
         [ForeignKey("User")]
         [Column(Order = 1)]

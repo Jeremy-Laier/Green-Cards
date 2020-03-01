@@ -7,6 +7,6 @@ namespace GREEN_CARD.Core.Data
 {
     public interface IItemRepository
     {
-        Task<List<Item>> Get(int ReceiptId);
+        Task<Item> Get(int ReceiptId);
     }
 }

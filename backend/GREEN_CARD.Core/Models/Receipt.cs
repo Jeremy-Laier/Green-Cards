@@ -6,6 +6,7 @@ namespace GREEN_CARD.Core.Models
 {
     public class Receipt{
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ReceiptId{get;set;}
         [ForeignKey("Transaction")]
         [Column(Order = 1)]

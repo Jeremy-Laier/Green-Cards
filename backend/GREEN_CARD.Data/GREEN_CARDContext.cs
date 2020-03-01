@@ -1,6 +1,8 @@
 ﻿ 
 using Microsoft.EntityFrameworkCore;
 using GREEN_CARD.Core.Models;
+using System.Threading;
+using System.Runtime.CompilerServices;
 
 namespace GREEN_CARD.Data
 {
@@ -13,7 +15,25 @@ namespace GREEN_CARD.Data
            // Database.EnsureCreated();
            Database.Migrate();
         }
+        
+        protected override void OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder modelBuilder)
+        {
+            //Configure default schema
+            // modelBuilder.Entity<Transaction>()
+            // .Property(f => f.TransactionId)
+            // .ValueGeneratedOnAdd();
+                    
+            // modelBuilder.Entity<Item>()
+            // .Property(f => f.ItemId)
+            // .ValueGeneratedOnAdd();
 
+            // modelBuilder.Entity<Receipt>()
+            // .Property(f => f.ReceiptId)
+            // .ValueGeneratedOnAdd();
+            //Map entity to table
+            modelBuilder.ForNpgsqlUseIdentityColumns();
+            
+        }
         public DbSet<Player> Players { get; set; }
         public DbSet<Season> Seasons { get; set; }
         public DbSet<Team> Teams { get; set; }

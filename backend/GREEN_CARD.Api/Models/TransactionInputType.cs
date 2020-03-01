@@ -15,7 +15,8 @@ namespace GREEN_CARD.Api.Models
             Field<DateGraphType>("startDate");
             Field<DateGraphType>("endDate");
             Field<IntGraphType>("pageSize");
-            Field<IntGraphType>("pageNumber");
+            Field<IntGraphType>("pageNumber")
+             ;
         }
     }
     public class TransactionInput{

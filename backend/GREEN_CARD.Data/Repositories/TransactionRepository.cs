@@ -21,10 +21,9 @@ namespace GREEN_CARD.Data.Repositories
         public async Task<List<Transaction>> Get(int id, DateTime inDate, DateTime outDate, int pageS, int pageN)
         {
 
-            return await _db.Transactions.Skip(pageN).Take(pageS)
-                                        .Where(t => t.UserId == id)
+            return await _db.Transactions.Where(t => t.UserId == id)
                                         .Where(t => t.Date >= inDate)
-                                        .Where(t => t.Date <= outDate).ToListAsync();
+                                        .Where(t => t.Date <= outDate).Skip(pageN).Take(pageS).ToListAsync();
         }
     }
 }

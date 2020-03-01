@@ -18,9 +18,9 @@ namespace GREEN_CARD.Data.Repositories
             _db = db;
         }
         // Gets the ReceiptID by the ReceiptId. 
-        public async Task<List<Item>> Get(int RId)
+        public async Task<Item> Get(int iId)
         {
-            return await _db.Items.Where(r => r.ReceiptId == RId).ToListAsync();
+            return _db.Items.Where(r => r.ItemId == iId).Single();
         }
     }
 }
