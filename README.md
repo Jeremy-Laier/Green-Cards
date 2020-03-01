@@ -4,7 +4,7 @@
  ## What?
  
  
-<a> This is how we reimagine banking? A bank for people who care about their bottom line as well as their envirmoent and society. Green Card is a new way to save the environment! </a>
+<a> This is how we reimagine banking. A bank for people who care about their bottom line as well as their envirmoent and society. Green Card is a new way to save the environment! </a>
 
 <a> For every environmentally friendly purchase you make, you get cash back! Use it just like your normal credit card or scan your reciepts using our deep learning techonolgy for even more, specialized cash back rewards! </a>
 
