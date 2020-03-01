@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GREEN_CARD.Api.Helpers {
     public static class ImageParser {
-        public static void ParseImage(String fileName) { 
+        public static string ParseImage(String fileName) { 
             System.Diagnostics.Process process = new System.Diagnostics.Process();
             process.StartInfo = new System.Diagnostics.ProcessStartInfo() {
                 UseShellExecute = false,
@@ -25,6 +25,7 @@ namespace GREEN_CARD.Api.Helpers {
 
             // Write the redirected output to this application's window.
             process.WaitForExit();
+            return output;
         }
         public static List<(string, string)> FormatString(string s) {
             List<string> parsed = new List<string>();
