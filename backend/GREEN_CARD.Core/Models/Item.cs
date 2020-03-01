@@ -16,5 +16,4 @@ namespace GREEN_CARD.Core.Models
         public int QRCode {get;set;}
 
     }
-
 }

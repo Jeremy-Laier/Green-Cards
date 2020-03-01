@@ -24,8 +24,7 @@ namespace GREEN_CARD.Data.Repositories
             return await _db.Players.FirstOrDefaultAsync(p => p.Id == id);
         }
 
-        public async Task<Player> GetRandom()
-        {
+        public async Task<Player> GetRandom() {
             return await _db.Players.OrderBy(o => Guid.NewGuid()).FirstOrDefaultAsync();
         }
 
@@ -34,8 +33,7 @@ namespace GREEN_CARD.Data.Repositories
             return await _db.Players.ToListAsync();
         }
 
-        public async Task<Player> Add(Player player)
-        {
+        public async Task<Player> Add(Player player) {
             await _db.Players.AddAsync(player);
             await _db.SaveChangesAsync();
             return player;
