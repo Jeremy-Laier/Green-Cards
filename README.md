@@ -14,4 +14,4 @@
 ## Where? 
 
 What we used:
-<a> Reactive Native, GraphQL, Postgrsql, .net, Python </a>
+> Reactive Native, GraphQL, Postgrsql, .net, Python
