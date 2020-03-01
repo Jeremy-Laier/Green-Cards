@@ -9,6 +9,5 @@ namespace GREEN_CARD.Core.Data
     {
         Task<User> Get(int id);
         Task<User> GetRandom();
-
     }
 }

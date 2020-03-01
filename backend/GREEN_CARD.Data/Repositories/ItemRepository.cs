@@ -1,10 +1,11 @@
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using GREEN_CARD.Core.Data;
 using GREEN_CARD.Core.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace GREEN_CARD.Data.Repositories
 {

@@ -9,7 +9,7 @@ namespace GREEN_CARD.Api.Models
         public GREEN_CARDSchema(IDependencyResolver resolver): base(resolver)
         {
             Query = resolver.Resolve<GREEN_CARDQuery>();
-            Mutation = resolver.Resolve<GREEN_CARDMutation>();
+            // Mutation = resolver.Resolve<GREEN_CARDMutation>();
         }
     }
 }

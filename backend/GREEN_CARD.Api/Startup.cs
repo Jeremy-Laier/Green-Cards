@@ -22,19 +22,36 @@ namespace GREEN_CARD.Api {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
+
             services.AddMvc();
            
             services.AddHttpContextAccessor();
             services.AddSingleton<ContextServiceLocator>();
             services.AddDbContext<GREEN_CARDContext>(options => options.UseNpgsql("Host=35.232.125.64;Database=dev-hi2020-v0;Username=postgres;Password=darwin;"));
+
             services.AddTransient<IPlayerRepository, PlayerRepository>();
             services.AddTransient<ISkaterStatisticRepository, SkaterStatisticRepository>();
+
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<ITransactionRepository, TransactionRepository>();
+            services.AddTransient<IReceiptRepository, ReceiptRepository>();
+            services.AddTransient<IItemRepository, ItemRepository>();
+
             services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
             services.AddSingleton<GREEN_CARDQuery>();
-            services.AddSingleton<GREEN_CARDMutation>();
-            services.AddSingleton<PlayerType>();
-            services.AddSingleton<PlayerInputType>();
-            services.AddSingleton<SkaterStatisticType>();
+            // services.AddSingleton<GREEN_CARDMutation>();
+
+            // services.AddSingleton<PlayerType>();
+            // services.AddSingleton<PlayerInputType>();
+            // services.AddSingleton<SkaterStatisticType>();
+
+            services.AddSingleton<UserType>();
+            services.AddSingleton<ItemType>();
+            services.AddSingleton<TransactionInputType>();
+            services.AddSingleton<TransactionType>();
+            services.AddSingleton<ReceiptType>();
+            services.AddSingleton<ItemType>();
+
             var sp = services.BuildServiceProvider();
             services.AddSingleton<ISchema>(new GREEN_CARDSchema(new FuncDependencyResolver(type => sp.GetService(type))));
         }
