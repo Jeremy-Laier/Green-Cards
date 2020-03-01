@@ -1,7 +1,7 @@
 # ASPNetCoreGraphQL
 Sample project based on <a href="https://fullstackmark.com/post/17/building-a-graphql-api-with-aspnet-core-2-and-entity-framework-core">the blog post</a> demonstrating how to build a GraphQL service powered by ASP.NET Core 2.2, Entity Framework Core and <a href="https://github.com/graphql-dotnet/graphql-dotnet" target="_blank">graphql-dotnet</a>.
 
-<img src="https://fullstackmark.com/img/posts/17/interactive-graphql-queries.gif" />
+# <img src="https://fullstackmark.com/img/posts/17/interactive-graphql-queries.gif" />
 
 
 ## Development Environment
@@ -28,4 +28,6 @@ mark@fullstackmark.com
 
 
 
-<a> testtttting </a>
+<a> Green Card, Come get your green card! </a>
+
+
