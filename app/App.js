@@ -4,6 +4,13 @@ import { AsyncStorage, Button, Text, TextInput, View, Image, Dimensions } from '
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator, HeaderStyleInterpolators, HeaderHeightContext } from '@react-navigation/stack';
 import TabNavigation from './TabNavigation';
+import { ApolloClient, HttpLink, InMemoryCache } from 'apollo-boost';
+import { ApolloProvider } from 'react-apollo';
+
+const client = new ApolloClient({
+  link: new HttpLink(),
+  cache: new InMemoryCache()
+});
 
 const AuthContext = React.createContext();
 
@@ -15,24 +22,6 @@ function SplashScreen() {
   );
 }
 
-// function LogoTitle() {
-//   return (
-//     <View style={{
-//       height: 300,
-//       width: 150,
-//       backgroundColor: 'blue'
-//     }}>
-//       <View style={{
-//         height: 50,
-//         width: 150
-//       }}></View>
-//       <Image
-//         style={{ width: 150, height: 150 }}
-//         source={require('./assets/greenlogo.png')}
-//       />
-//     </View>
-//   );
-// }
 
 function SignInScreen() {
   const [username, setUsername] = React.useState('');
@@ -155,32 +144,34 @@ export default function App({ navigation }) {
   );
 
   return (
-    <AuthContext.Provider value={authContext}>
-      <NavigationContainer>
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-          {state.isLoading ? (
-            // We haven't finished checking for the token yet
-            <Stack.Screen name="Splash" component={SplashScreen} />
-          ) : state.userToken == null ? (
-            // No token found, user isn't signed in
-            <Stack.Screen
-              name="SignIn"
+    <ApolloProvider client={client}>
+      <AuthContext.Provider value={authContext}>
+        <NavigationContainer>
+          <Stack.Navigator screenOptions={{ headerShown: false }}>
+            {state.isLoading ? (
+              // We haven't finished checking for the token yet
+              <Stack.Screen name="Splash" component={SplashScreen} />
+            ) : state.userToken == null ? (
+              // No token found, user isn't signed in
+              <Stack.Screen
+                name="SignIn"
 
-              component={SignInScreen}
-              options={{
+                component={SignInScreen}
+                options={{
                 // headerTitle: props => <LogoTitle {...props} />,
                 // // When logging out, a pop animation feels intuitive
                 // animationTypeForReplace: state.isSignout ? 'pop' : 'push',
                 // headerStyle: { height: 200 }
-              }}
-            />
-          ) : (
-                // User is signed in
-                <Stack.Screen name="Green Reward" component={TabNavigation} />
-              )}
-        </Stack.Navigator>
+                }}
+              />
+            ) : (
+                  // User is signed in
+                  <Stack.Screen name="Green Reward" component={TabNavigation} />
+                )}
+          </Stack.Navigator>
 
-      </NavigationContainer>
-    </AuthContext.Provider>
+        </NavigationContainer>
+      </AuthContext.Provider>
+    </ApolloProvider>
   );
 }
