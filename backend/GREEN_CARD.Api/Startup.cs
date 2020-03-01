@@ -26,7 +26,7 @@ namespace GREEN_CARD.Api {
            
             services.AddHttpContextAccessor();
             services.AddSingleton<ContextServiceLocator>();
-            services.AddDbContext<GREEN_CARDContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:GREEN_CARDDb"]));
+            services.AddDbContext<GREEN_CARDContext>(options => options.UseNpgsql("Host=35.232.125.64;Database=dev-hi2020-v0;Username=postgres;Password=darwin;"));
             services.AddTransient<IPlayerRepository, PlayerRepository>();
             services.AddTransient<ISkaterStatisticRepository, SkaterStatisticRepository>();
             services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
