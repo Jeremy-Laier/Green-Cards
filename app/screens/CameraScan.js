@@ -1,8 +1,9 @@
 import React from 'react';
-import { View, StyleSheet, Dimensions, Text, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Dimensions, Text, TouchableOpacity, Image, Picker } from 'react-native';
 import * as Permissions from 'expo-permissions';
 import { Camera } from 'expo-camera';
 import { createStackNavigator } from '@react-navigation/stack';
+
 
 import { Ionicons } from '@expo/vector-icons';
 
@@ -41,7 +42,7 @@ export class Scan extends React.Component {
   }
 
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   async componentDidMount() {
@@ -54,14 +55,14 @@ export class Scan extends React.Component {
   async snap() {
     if (this.camera) {
       let photo = await this.camera.takePictureAsync();
-      setTimeout(() => {
-        this.showImage();
+      await setTimeout(() => {
+        this.showImage(photo);
       }, 300);
     }
   }
 
-  showImage() {
-    this.props.navigation.push("ImageView");
+  showImage(img) {
+    this.props.navigation.push("ImageView", { img: img });
   }
 
   render() {
@@ -104,7 +105,14 @@ export class Scan extends React.Component {
   }
 }
 
+
 export class ImageView extends React.Component {
+
+  img = null;
+
+  state = {
+    language: ''
+  }
 
   static navigationOptions = {
     title: "Scan",
@@ -116,15 +124,42 @@ export class ImageView extends React.Component {
 
   constructor(props) {
     super(props);
+
   }
 
   render() {
+    this.img = this.props.route.params.img;
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        {/* <Image
-          style={{ width: 150, height: 150 }}
-          source={require('./assets/greenlogo.png')}
-        /> */}
+        <Image
+          style={{ width: '80%', height: '80%' }}
+          source={{ uri: this.img.uri }}
+        />
+        <View style={{
+          marginTop: 10,
+          width: winWidth,
+          backgroundColor: 'red',
+          height: 300,
+          alignItems: 'center',
+        }}>
+          <Text style={{ fontSize: 25 }}>Select Date: </Text>
+          <Picker
+            selectedValue={this.state.language}
+            style={{ top: -50, height: 20, width: '100%' }}
+            onValueChange={(itemValue, itemIndex) =>
+              this.setState({ language: itemValue })
+            }>
+            <Picker.Item label="Java" value="java" />
+            <Picker.Item label="JavaScript" value="js" />
+          </Picker>
+          <TouchableOpacity style={{
+            backgroundColor: '#DDDDDD',
+            padding: 10,
+            top: 110
+          }}>
+            <Text>Send</Text>
+          </TouchableOpacity>
+        </View>
       </View >
     );
   }
